@@ -3,27 +3,17 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Command } from "cmdk";
-import { create } from "zustand";
 import { MagnifyingGlass, ArrowRight } from "@phosphor-icons/react";
 import { APPS } from "@/data/apps";
 import { SHORTCUT_INDEX } from "@/data/shortcuts";
 import { useKeymap } from "@/lib/store";
+import { usePalette } from "@/lib/palette-store";
 import { AppGlyph } from "@/components/app-glyph";
 import { Kbd } from "@/components/kbd";
 import { copyToClipboard } from "@/lib/utils";
 
-interface PaletteState {
-  isOpen: boolean;
-  open: () => void;
-  close: () => void;
-  toggle: () => void;
-}
-export const usePalette = create<PaletteState>((set, get) => ({
-  isOpen: false,
-  open: () => set({ isOpen: true }),
-  close: () => set({ isOpen: false }),
-  toggle: () => set({ isOpen: !get().isOpen }),
-}));
+// Re-exported so existing imports from this module keep working.
+export { usePalette };
 
 export function CommandPalette() {
   const { isOpen, close, toggle } = usePalette();

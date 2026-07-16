@@ -2,12 +2,14 @@ import Link from "next/link";
 import { Sparkle, Lightning, Clock, Star } from "@phosphor-icons/react/dist/ssr";
 import { APPS } from "@/data/apps";
 import { SHORTCUT_INDEX } from "@/data/shortcuts";
+import { LESSONS } from "@/data/lessons";
 import { HeroSearch } from "@/components/hero-search";
 import { Section } from "@/components/section";
 import { AppCard } from "@/components/app-card";
 import { CategoryGrid } from "@/components/category-grid";
 import { PopularShortcuts } from "@/components/popular-shortcuts";
 import { RecentlyViewed } from "@/components/recently-viewed";
+import { LessonCard } from "@/components/lesson-parts";
 import { Reveal } from "@/components/reveal";
 
 export const metadata = {
@@ -25,6 +27,7 @@ const recentlyAdded = [...APPS]
   .reverse();
 
 const verifiedCount = APPS.filter((a) => a.status === "verified").length;
+const featuredLessons = LESSONS.slice(0, 3);
 
 export default function Home() {
   return (
@@ -98,6 +101,18 @@ export default function Home() {
         action={{ href: "/categories", label: "See all" }}
       >
         <CategoryGrid />
+      </Section>
+
+      <Section
+        eyebrow="Beyond the keyboard"
+        title="Prompt engineering course"
+        action={{ href: "/learn", label: "All lessons" }}
+      >
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {featuredLessons.map((l, i) => (
+            <LessonCard key={l.slug} lesson={l} index={i} />
+          ))}
+        </div>
       </Section>
 
       <Section eyebrow="Fresh in the library" title="Recently added">

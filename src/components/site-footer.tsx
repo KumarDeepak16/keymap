@@ -27,7 +27,10 @@ export function SiteFooter() {
               <li><Link href="/apps" className="text-ink-secondary hover:text-ink">All apps</Link></li>
               <li><Link href="/categories" className="text-ink-secondary hover:text-ink">Categories</Link></li>
               <li><Link href="/favorites" className="text-ink-secondary hover:text-ink">Favorites</Link></li>
+              <li><Link href="/my-keys" className="text-ink-secondary hover:text-ink">My Keys</Link></li>
               <li><Link href="/google-search-tips" className="text-ink-secondary hover:text-ink">Google search tips</Link></li>
+              <li><Link href="/learn" className="text-ink-secondary hover:text-ink">Prompt engineering</Link></li>
+              <li><Link href="/learn/prompts" className="text-ink-secondary hover:text-ink">Prompt library</Link></li>
             </ul>
           </div>
 

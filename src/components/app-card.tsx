@@ -3,7 +3,7 @@ import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
 import type { App } from "@/lib/types";
 import { AppGlyph } from "@/components/app-glyph";
 import { Chip } from "@/components/badges";
-import { SHORTCUT_COUNTS } from "@/data/shortcuts";
+import { SHORTCUT_COUNTS } from "@/data/shortcut-counts";
 
 export function AppCard({ app }: { app: App }) {
   const count = SHORTCUT_COUNTS[app.slug];

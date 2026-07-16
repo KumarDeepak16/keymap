@@ -38,6 +38,7 @@ export const metadata: Metadata = {
   keywords: [
     "keyboard shortcuts", "hotkeys", "cheat sheet", "Windows shortcuts",
     "macOS shortcuts", "VS Code", "Excel", "Chrome", "Figma", "productivity",
+    "shortcut cheat sheet PDF", "prompt engineering", "AI prompts",
   ],
   authors: [{ name: "kumardeepak16", url: "https://github.com/kumardeepak16" }],
   creator: "kumardeepak16",

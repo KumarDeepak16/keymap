@@ -1,11 +1,21 @@
 import type { MetadataRoute } from "next";
 import { APPS } from "@/data/apps";
 import { CATEGORIES } from "@/data/categories";
+import { LESSONS } from "@/data/lessons";
 
 const SITE = "https://keymap.1619.in";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/apps", "/categories", "/favorites", "/google-search-tips"].map(
+  const staticRoutes = [
+    "",
+    "/apps",
+    "/categories",
+    "/favorites",
+    "/my-keys",
+    "/google-search-tips",
+    "/learn",
+    "/learn/prompts",
+  ].map(
     (path) => ({
       url: `${SITE}${path}`,
       changeFrequency: "weekly" as const,
@@ -25,5 +35,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticRoutes, ...appRoutes, ...categoryRoutes];
+  const lessonRoutes = LESSONS.map((l) => ({
+    url: `${SITE}/learn/${l.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...appRoutes, ...categoryRoutes, ...lessonRoutes];
 }

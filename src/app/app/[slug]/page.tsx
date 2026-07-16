@@ -135,7 +135,7 @@ export default async function AppPage({ params }: { params: Promise<{ slug: stri
           </section>
 
           {/* Full browser */}
-          <AppDetail data={data} />
+          <AppDetail app={app} data={data} />
         </>
       ) : (
         <ComingSoon appName={app.name} />

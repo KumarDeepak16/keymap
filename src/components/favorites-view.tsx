@@ -7,6 +7,7 @@ import { SHORTCUT_INDEX } from "@/data/shortcuts";
 import { getApp } from "@/data/apps";
 import { AppGlyph } from "@/components/app-glyph";
 import { Kbd } from "@/components/kbd";
+import { KeyboardPeek } from "@/components/keyboard-peek";
 import { CopyButton, FavoriteButton } from "@/components/shortcut-actions";
 
 export function FavoritesView() {
@@ -72,12 +73,24 @@ export function FavoritesView() {
               {list.map((s, i) => {
                 const combo = os === "mac" ? s.mac : s.windows;
                 return (
-                  <div key={i} className="group flex items-center gap-3 px-4 py-3">
-                    <p className="min-w-0 flex-1 truncate text-sm text-ink">{s.action}</p>
-                    {combo && <Kbd combo={combo} />}
-                    <div className="flex items-center">
-                      {combo && <CopyButton text={combo} />}
-                      <FavoriteButton appSlug={s.appSlug} action={s.action} />
+                  <div
+                    key={i}
+                    data-peek-row
+                    className="group flex flex-col gap-2 px-4 py-3 sm:flex-row sm:items-center sm:gap-3"
+                  >
+                    <p className="min-w-0 text-sm leading-snug text-ink sm:flex-1 sm:truncate">
+                      {s.action}
+                    </p>
+                    <div className="flex shrink-0 items-center gap-1">
+                      {combo && (
+                        <KeyboardPeek combo={combo} action={s.action}>
+                          <Kbd combo={combo} />
+                        </KeyboardPeek>
+                      )}
+                      <div className="flex shrink-0 items-center">
+                        {combo && <CopyButton text={combo} />}
+                        <FavoriteButton appSlug={s.appSlug} action={s.action} />
+                      </div>
                     </div>
                   </div>
                 );

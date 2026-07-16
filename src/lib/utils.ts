@@ -61,6 +61,15 @@ export async function copyToClipboard(text: string): Promise<boolean> {
   }
 }
 
+/** "Say what you want, not what you don't" -> "say-what-you-want-not-what-you-dont" */
+export function slugifyHeading(heading: string): string {
+  return heading
+    .toLowerCase()
+    .replace(/[’']/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 export function formatVerified(iso: string): string {
   // "2026-07-16" -> "Jul 16, 2026" without Date() nondeterminism concerns (pure parse)
   const [y, m, d] = iso.split("-").map(Number);

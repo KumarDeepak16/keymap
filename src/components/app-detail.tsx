@@ -1,15 +1,16 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { MagnifyingGlass, Printer } from "@phosphor-icons/react";
-import type { AppShortcuts, Difficulty, Shortcut } from "@/lib/types";
+import { MagnifyingGlass } from "@phosphor-icons/react";
+import type { App, AppShortcuts, Difficulty, Shortcut } from "@/lib/types";
 import { ShortcutRow } from "@/components/shortcut-row";
 import { KeyboardVisual } from "@/components/keyboard-visual";
+import { DownloadPdf } from "@/components/download-pdf";
 import { cn } from "@/lib/utils";
 
 const DIFFICULTIES: Difficulty[] = ["beginner", "intermediate", "advanced"];
 
-export function AppDetail({ data }: { data: AppShortcuts }) {
+export function AppDetail({ app, data }: { app: App; data: AppShortcuts }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<string>("all");
   const [difficulty, setDifficulty] = useState<Difficulty | "all">("all");
@@ -37,100 +38,150 @@ export function AppDetail({ data }: { data: AppShortcuts }) {
     return g;
   }, [filtered]);
 
+  const activeFilters =
+    (category !== "all" ? 1 : 0) + (difficulty !== "all" ? 1 : 0) + (query ? 1 : 0);
+
   return (
-    <div>
-      {/* Controls */}
-      <div className="sticky top-16 z-20 -mx-4 border-b border-border bg-bg/85 px-4 py-3 backdrop-blur-md sm:mx-0 sm:rounded-[var(--radius)] sm:border sm:px-4">
-        <div className="flex flex-col gap-3">
-          <div className="relative">
-            <MagnifyingGlass size={18} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-ink-tertiary" weight="bold" />
+    <div className="gap-8 lg:grid lg:grid-cols-[210px_minmax(0,1fr)] lg:items-start">
+      {/* Filters — a sidebar on desktop, a collapsible panel on mobile */}
+      <aside className="lg:sticky lg:top-24 print:hidden">
+        <div className="rounded-[var(--radius)] border border-border bg-surface p-4 lg:border-0 lg:bg-transparent lg:p-0">
+          <div className="mb-4 flex items-center justify-between lg:mb-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-tertiary">
+              Filter
+            </p>
+            {activeFilters > 0 && (
+              <button
+                onClick={() => {
+                  setQuery("");
+                  setCategory("all");
+                  setDifficulty("all");
+                }}
+                className="text-xs text-ink-secondary underline underline-offset-4 transition-colors hover:text-ink"
+              >
+                Clear ({activeFilters})
+              </button>
+            )}
+          </div>
+
+          <div className="relative mb-5">
+            <MagnifyingGlass
+              size={15}
+              className="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 text-ink-tertiary"
+              weight="bold"
+            />
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder={`Search ${data.shortcuts.length} shortcuts…`}
-              className="h-11 w-full rounded-[var(--radius-sm)] border border-border bg-surface pl-10 pr-4 text-sm text-ink outline-none transition-colors focus:border-border-strong"
+              placeholder="Search…"
+              aria-label={`Search ${data.shortcuts.length} shortcuts`}
+              className="h-9 w-full rounded-[var(--radius-sm)] border border-border bg-surface pl-8 pr-3 text-sm text-ink outline-none transition-colors placeholder:text-ink-tertiary focus:border-border-strong"
             />
           </div>
 
-          <div className="flex flex-wrap items-center gap-2">
-            {/* difficulty */}
-            <div className="inline-flex rounded-[var(--radius-sm)] border border-border bg-surface-sunken p-0.5">
-              {(["all", ...DIFFICULTIES] as const).map((d) => (
-                <button
-                  key={d}
-                  onClick={() => setDifficulty(d)}
-                  className={cn(
-                    "rounded-[calc(var(--radius-sm)-2px)] px-2.5 py-1 text-xs font-medium capitalize transition-colors",
-                    difficulty === d ? "bg-surface text-ink shadow-[var(--shadow-card)]" : "text-ink-secondary hover:text-ink",
-                  )}
-                >
-                  {d}
-                </button>
-              ))}
-            </div>
-
-            <button
-              onClick={() => window.print()}
-              className="ml-auto inline-flex items-center gap-1.5 rounded-[var(--radius-sm)] border border-border bg-surface px-3 py-1.5 text-xs font-medium text-ink-secondary transition-colors hover:text-ink print:hidden"
-            >
-              <Printer size={14} weight="bold" />
-              Print / PDF
-            </button>
-          </div>
-
-          {/* category chips */}
-          <div className="scroll-thin -mb-1 flex gap-1.5 overflow-x-auto pb-1">
-            {categories.map((c) => (
-              <button
-                key={c}
-                onClick={() => setCategory(c)}
-                className={cn(
-                  "shrink-0 rounded-full border px-3 py-1 text-xs font-medium capitalize transition-colors",
-                  category === c
-                    ? "border-ink bg-ink text-bg"
-                    : "border-border bg-surface text-ink-secondary hover:border-border-strong hover:text-ink",
-                )}
+          <FilterGroup label="Level">
+            {(["all", ...DIFFICULTIES] as const).map((d) => (
+              <FilterItem
+                key={d}
+                active={difficulty === d}
+                onClick={() => setDifficulty(d)}
               >
-                {c === "all" ? "All categories" : c}
-              </button>
+                {d === "all" ? "All levels" : d}
+              </FilterItem>
             ))}
+          </FilterGroup>
+
+          <FilterGroup label="Category">
+            {categories.map((c) => (
+              <FilterItem key={c} active={category === c} onClick={() => setCategory(c)}>
+                {c === "all" ? "All categories" : c}
+              </FilterItem>
+            ))}
+          </FilterGroup>
+
+          <div className="mt-5">
+            <DownloadPdf app={app} data={data} />
           </div>
         </div>
-      </div>
+      </aside>
 
-      {/* Keyboard heatmap */}
-      <div className="mt-6 overflow-x-auto print:hidden">
-        <div className="min-w-[560px]">
-          <KeyboardVisual shortcuts={data.shortcuts} />
+      <div className="mt-6 min-w-0 lg:mt-0">
+        {/* Keyboard heatmap */}
+        <div className="overflow-x-auto print:hidden">
+          <div className="min-w-[560px]">
+            <KeyboardVisual shortcuts={data.shortcuts} />
+          </div>
         </div>
-      </div>
 
-      {/* Results */}
-      {filtered.length === 0 ? (
-        <EmptyState query={query} />
-      ) : (
-        <div className="mt-8 space-y-10">
-          {DIFFICULTIES.map((level) => {
-            const items = grouped[level];
-            if (items.length === 0) return null;
-            return (
-              <section key={level}>
-                <div className="mb-2 flex items-center gap-3">
-                  <h2 className="font-serif text-lg capitalize text-ink">{level}</h2>
-                  <span className="h-px flex-1 bg-border" />
-                  <span className="text-xs text-ink-tertiary">{items.length}</span>
-                </div>
-                <div className="divide-y divide-border overflow-hidden rounded-[var(--radius)] border border-border bg-surface">
-                  {items.map((s, i) => (
-                    <ShortcutRow key={i} shortcut={s} appSlug={data.app} showDifficulty={false} />
-                  ))}
-                </div>
-              </section>
-            );
-          })}
-        </div>
-      )}
+        {/* Results */}
+        {filtered.length === 0 ? (
+          <EmptyState query={query} />
+        ) : (
+          <div className="mt-8 space-y-10">
+            {DIFFICULTIES.map((level) => {
+              const items = grouped[level];
+              if (items.length === 0) return null;
+              return (
+                <section key={level}>
+                  <div className="mb-2 flex items-center gap-3">
+                    <h2 className="font-serif text-lg capitalize text-ink">{level}</h2>
+                    <span className="h-px flex-1 bg-border" />
+                    <span className="text-xs text-ink-tertiary">{items.length}</span>
+                  </div>
+                  <div className="divide-y divide-border overflow-hidden rounded-[var(--radius)] border border-border bg-surface">
+                    {items.map((s, i) => (
+                      <ShortcutRow key={i} shortcut={s} appSlug={data.app} showDifficulty={false} />
+                    ))}
+                  </div>
+                </section>
+              );
+            })}
+          </div>
+        )}
+      </div>
     </div>
+  );
+}
+
+function FilterGroup({
+  label,
+  children,
+}: {
+  label: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="mb-5">
+      <p className="mb-1.5 text-[0.7rem] font-medium uppercase tracking-wider text-ink-tertiary">
+        {label}
+      </p>
+      <div className="flex flex-wrap gap-1 lg:block lg:space-y-0.5">{children}</div>
+    </div>
+  );
+}
+
+function FilterItem({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      aria-pressed={active}
+      className={cn(
+        "rounded-full border px-3 py-1 text-xs font-medium capitalize transition-colors lg:w-full lg:rounded-[var(--radius-sm)] lg:border-0 lg:px-2 lg:py-1.5 lg:text-left lg:text-[0.82rem] lg:normal-case",
+        active
+          ? "border-ink bg-ink text-bg lg:bg-surface-sunken lg:font-medium lg:text-ink"
+          : "border-border bg-surface text-ink-secondary hover:border-border-strong hover:text-ink lg:bg-transparent lg:hover:bg-surface-sunken/60",
+      )}
+    >
+      {children}
+    </button>
   );
 }
 

@@ -18,7 +18,7 @@ export function Kbd({ combo, pressed }: { combo: string; pressed?: boolean }) {
   }
 
   return (
-    <span className="inline-flex items-center gap-1 align-middle">
+    <span className="inline-flex flex-wrap items-center gap-1 align-middle">
       {keys.map((k, i) => (
         <span key={i} className="inline-flex items-center gap-1">
           {i > 0 && (

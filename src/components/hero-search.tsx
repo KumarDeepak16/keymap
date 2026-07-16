@@ -9,6 +9,7 @@ import { useKeymap } from "@/lib/store";
 import { AppGlyph } from "@/components/app-glyph";
 import { Kbd } from "@/components/kbd";
 import { usePalette } from "@/components/command-palette";
+import { HeroSearchSentinel } from "@/components/hero-search-sentinel";
 
 export function HeroSearch() {
   const [q, setQ] = useState("");
@@ -38,6 +39,7 @@ export function HeroSearch() {
 
   return (
     <div ref={boxRef} className="relative mx-auto w-full max-w-2xl">
+      <HeroSearchSentinel />
       <div className="relative">
         <MagnifyingGlass
           size={20}
