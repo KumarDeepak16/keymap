@@ -1,0 +1,33 @@
+{
+  "app": "onenote",
+  "officialDocsUrl": "https://support.microsoft.com/en-us/accessibility/onenote/keyboard-shortcuts-in-onenote",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Create a new page", "windows": "Ctrl+N", "mac": "Cmd+N", "category": "Pages", "difficulty": "beginner" },
+    { "action": "Open a notebook", "windows": "Ctrl+O", "mac": "Cmd+O", "category": "Notebooks", "difficulty": "beginner" },
+    { "action": "Go to next page in section", "windows": "Ctrl+Page Down", "mac": "Cmd+Page Down", "category": "Pages", "difficulty": "intermediate" },
+    { "action": "Go to previous page in section", "windows": "Ctrl+Page Up", "mac": "Cmd+Page Up", "category": "Pages", "difficulty": "intermediate" },
+    { "action": "Move to the page title", "windows": "Ctrl+Shift+T", "mac": "Cmd+Shift+T", "category": "Pages", "difficulty": "intermediate" },
+    { "action": "Undo", "windows": "Ctrl+Z", "mac": "Cmd+Z", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Redo", "windows": "Ctrl+Y", "mac": "Cmd+Y", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Cut", "windows": "Ctrl+X", "mac": "Cmd+X", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Copy", "windows": "Ctrl+C", "mac": "Cmd+C", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Paste", "windows": "Ctrl+V", "mac": "Cmd+V", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Select all", "windows": "Ctrl+A", "mac": "Cmd+A", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Copy formatting", "windows": "Ctrl+Alt+C", "mac": "Cmd+Option+C", "category": "Formatting", "difficulty": "advanced" },
+    { "action": "Paste formatting", "windows": "Ctrl+Alt+V", "mac": "Cmd+Option+V", "category": "Formatting", "difficulty": "advanced" },
+    { "action": "Increase indent", "windows": "Tab", "mac": "Tab", "category": "Formatting", "difficulty": "beginner" },
+    { "action": "Decrease indent", "windows": "Shift+Tab", "mac": "Shift+Tab", "category": "Formatting", "difficulty": "beginner" },
+    { "action": "Insert a line break", "windows": "Shift+Enter", "mac": "Shift+Enter", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Insert the current date", "windows": "Alt+Shift+D", "mac": "Cmd+D", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Insert the current date and time", "windows": "Alt+Shift+F", "mac": "Cmd+Shift+D", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Insert a new row below in a table", "windows": "Ctrl+Enter", "mac": "Cmd+Enter", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Sync this notebook", "windows": "Ctrl+S", "mac": "Cmd+S", "category": "Notebooks", "difficulty": "beginner" },
+    { "action": "Move or copy the current page", "windows": "Ctrl+Alt+M", "mac": "Cmd+Shift+M", "category": "Pages", "difficulty": "advanced" },
+    { "action": "Search the current page", "windows": "Ctrl+F", "mac": "Cmd+F", "category": "Actions", "difficulty": "beginner" },
+    { "action": "Search all notebooks", "windows": "Ctrl+E", "mac": "Cmd+Option+F", "category": "Actions", "difficulty": "intermediate" },
+    { "action": "Zoom in", "windows": "Ctrl+=", "mac": "Cmd+=", "category": "Actions", "difficulty": "beginner" },
+    { "action": "Zoom out", "windows": "Ctrl+-", "mac": "Cmd+-", "category": "Actions", "difficulty": "beginner" },
+    { "action": "Print the current page", "windows": "Ctrl+P", "mac": "Cmd+P", "category": "Actions", "difficulty": "beginner" }
+  ]
+}

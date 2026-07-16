@@ -1,0 +1,33 @@
+{
+  "app": "google-slides",
+  "officialDocsUrl": "https://support.google.com/docs/answer/1696717",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Play presentation", "windows": "Ctrl+F5", "mac": "Cmd+Enter", "category": "Present", "difficulty": "beginner" },
+    { "action": "Present from beginning", "windows": "Ctrl+Shift+F5", "mac": "Cmd+Shift+Enter", "category": "Present", "difficulty": "beginner" },
+    { "action": "Stop presenting", "windows": "Esc", "mac": "Esc", "category": "Present", "difficulty": "beginner" },
+    { "action": "Next slide while presenting", "windows": "Right", "mac": "Right", "category": "Present", "difficulty": "beginner" },
+    { "action": "Previous slide while presenting", "windows": "Left", "mac": "Left", "category": "Present", "difficulty": "beginner" },
+    { "action": "New slide", "windows": "Ctrl+M", "mac": "Ctrl+M", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Duplicate slide", "windows": "Ctrl+D", "mac": "Cmd+D", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Move slide up", "windows": "Ctrl+Up", "mac": "Cmd+Up", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Move slide down", "windows": "Ctrl+Down", "mac": "Cmd+Down", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Undo", "windows": "Ctrl+Z", "mac": "Cmd+Z", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Redo", "windows": "Ctrl+Shift+Z", "mac": "Cmd+Shift+Z", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Copy", "windows": "Ctrl+C", "mac": "Cmd+C", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Cut", "windows": "Ctrl+X", "mac": "Cmd+X", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Paste", "windows": "Ctrl+V", "mac": "Cmd+V", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Paste without formatting", "windows": "Ctrl+Shift+V", "mac": "Cmd+Shift+V", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Select all", "windows": "Ctrl+A", "mac": "Cmd+A", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Find and replace", "windows": "Ctrl+H", "mac": "Cmd+Shift+H", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Bold", "windows": "Ctrl+B", "mac": "Cmd+B", "category": "Formatting", "difficulty": "beginner" },
+    { "action": "Italic", "windows": "Ctrl+I", "mac": "Cmd+I", "category": "Formatting", "difficulty": "beginner" },
+    { "action": "Underline", "windows": "Ctrl+U", "mac": "Cmd+U", "category": "Formatting", "difficulty": "beginner" },
+    { "action": "Center align text", "windows": "Ctrl+Shift+E", "mac": "Cmd+Shift+E", "category": "Formatting", "difficulty": "intermediate" },
+    { "action": "Group objects", "windows": "Ctrl+Alt+G", "mac": "Cmd+Option+G", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Ungroup objects", "windows": "Ctrl+Alt+Shift+G", "mac": "Cmd+Option+Shift+G", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Insert or edit link", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Insert comment", "windows": "Ctrl+Alt+M", "mac": "Cmd+Option+M", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Show common shortcuts", "windows": "Ctrl+/", "mac": "Cmd+/", "category": "View", "difficulty": "beginner" }
+  ]
+}

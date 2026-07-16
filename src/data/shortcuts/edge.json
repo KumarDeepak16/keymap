@@ -1,0 +1,33 @@
+{
+  "app": "edge",
+  "officialDocsUrl": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "New tab", "windows": "Ctrl+T", "mac": "Cmd+T", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Close current tab", "windows": "Ctrl+W", "mac": "Cmd+W", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Reopen last closed tab", "windows": "Ctrl+Shift+T", "mac": "Cmd+Shift+T", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Jump to next tab", "windows": "Ctrl+Tab", "mac": "Cmd+Option+Right", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Jump to previous tab", "windows": "Ctrl+Shift+Tab", "mac": "Cmd+Option+Left", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Jump to a specific tab (1-8)", "windows": "Ctrl+1 ... Ctrl+8", "mac": "Cmd+1 ... Cmd+8", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Jump to last tab", "windows": "Ctrl+9", "mac": "Cmd+9", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "New window", "windows": "Ctrl+N", "mac": "Cmd+N", "category": "Windows", "difficulty": "beginner" },
+    { "action": "New InPrivate window", "windows": "Ctrl+Shift+N", "mac": "Cmd+Shift+N", "category": "Windows", "difficulty": "beginner" },
+    { "action": "Go back", "windows": "Alt+Left", "mac": "Cmd+Left", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go forward", "windows": "Alt+Right", "mac": "Cmd+Right", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Reload page", "windows": "Ctrl+R", "mac": "Cmd+R", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Reload ignoring cache", "windows": "Ctrl+Shift+R", "mac": "Cmd+Shift+R", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Toggle full screen", "windows": "F11", "mac": "Cmd+Ctrl+F", "category": "General", "difficulty": "intermediate" },
+    { "action": "Select the address bar (URL)", "windows": "Ctrl+L", "mac": "Cmd+L", "category": "Address bar", "difficulty": "beginner" },
+    { "action": "Search from the address bar", "windows": "Ctrl+E", "mac": "Cmd+E", "category": "Address bar", "difficulty": "intermediate" },
+    { "action": "Save current tab as favorite", "windows": "Ctrl+D", "mac": "Cmd+D", "category": "Bookmarks", "difficulty": "beginner" },
+    { "action": "Save all open tabs as favorites in a folder", "windows": "Ctrl+Shift+D", "mac": "Cmd+Shift+D", "category": "Bookmarks", "difficulty": "advanced" },
+    { "action": "Show or hide the favorites bar", "windows": "Ctrl+Shift+B", "mac": "Cmd+Shift+B", "category": "Bookmarks", "difficulty": "intermediate" },
+    { "action": "Open favorites management", "windows": "Ctrl+Shift+O", "mac": "Cmd+Shift+O", "category": "Bookmarks", "difficulty": "intermediate" },
+    { "action": "Find on page", "windows": "Ctrl+F", "mac": "Cmd+F", "category": "General", "difficulty": "beginner" },
+    { "action": "Open history", "windows": "Ctrl+H", "mac": "Cmd+Y", "category": "General", "difficulty": "beginner" },
+    { "action": "Open downloads", "windows": "Ctrl+J", "mac": "Cmd+Shift+J", "category": "General", "difficulty": "beginner" },
+    { "action": "Print current page", "windows": "Ctrl+P", "mac": "Cmd+P", "category": "General", "difficulty": "beginner" },
+    { "action": "Clear browsing data", "windows": "Ctrl+Shift+Delete", "mac": "Cmd+Shift+Delete", "category": "General", "difficulty": "intermediate" },
+    { "action": "Open Developer Tools", "windows": "F12", "mac": "Cmd+Option+I", "category": "General", "difficulty": "advanced" }
+  ]
+}

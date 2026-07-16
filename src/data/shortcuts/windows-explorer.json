@@ -1,0 +1,28 @@
+{
+  "app": "windows-explorer",
+  "officialDocsUrl": "https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Open File Explorer", "windows": "Win+E", "mac": "", "category": "Files", "difficulty": "beginner" },
+    { "action": "Open a new window", "windows": "Ctrl+N", "mac": "", "category": "Windows", "difficulty": "beginner" },
+    { "action": "Open a new tab", "windows": "Ctrl+T", "mac": "", "category": "Windows", "difficulty": "beginner" },
+    { "action": "Close the active tab", "windows": "Ctrl+W", "mac": "", "category": "Windows", "difficulty": "beginner" },
+    { "action": "Create a new folder", "windows": "Ctrl+Shift+N", "mac": "", "category": "Files", "difficulty": "beginner" },
+    { "action": "Rename the selected item", "windows": "F2", "mac": "", "category": "Files", "difficulty": "beginner" },
+    { "action": "Delete to Recycle Bin", "windows": "Ctrl+D", "mac": "", "category": "Files", "difficulty": "beginner" },
+    { "action": "Permanently delete item", "windows": "Shift+Delete", "mac": "", "category": "Files", "difficulty": "intermediate" },
+    { "action": "Display item properties", "windows": "Alt+Enter", "mac": "", "category": "Files", "difficulty": "intermediate" },
+    { "action": "Select the address bar", "windows": "Alt+D", "mac": "", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Focus / select address bar", "windows": "Ctrl+L", "mac": "", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Select the search box", "windows": "Ctrl+E", "mac": "", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Go up a level in folder path", "windows": "Alt+Up", "mac": "", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go to previous folder", "windows": "Alt+Left", "mac": "", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go to next folder", "windows": "Alt+Right", "mac": "", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Refresh the window", "windows": "F5", "mac": "", "category": "View", "difficulty": "beginner" },
+    { "action": "Show / hide the preview pane", "windows": "Alt+P", "mac": "", "category": "View", "difficulty": "intermediate" },
+    { "action": "Show / hide the details pane", "windows": "Alt+Shift+P", "mac": "", "category": "View", "difficulty": "intermediate" },
+    { "action": "Expand all folders in nav pane", "windows": "Ctrl+Shift+E", "mac": "", "category": "View", "difficulty": "advanced" },
+    { "action": "Move to next tab", "windows": "Ctrl+Tab", "mac": "", "category": "Windows", "difficulty": "intermediate" },
+    { "action": "Display context menu", "windows": "Shift+F10", "mac": "", "category": "Files", "difficulty": "advanced" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "app": "safari",
+  "officialDocsUrl": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Open link in a new tab", "windows": "", "mac": "Cmd+Click link", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Show tab overview", "windows": "", "mac": "Cmd+Shift+\\", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Go to next tab", "windows": "", "mac": "Ctrl+Tab", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Go to previous tab", "windows": "", "mac": "Ctrl+Shift+Tab", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Select a specific tab (1-8)", "windows": "", "mac": "Cmd+1 ... Cmd+8", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Select the last tab", "windows": "", "mac": "Cmd+9", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Close the current tab", "windows": "", "mac": "Cmd+W", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Reopen the last closed tab", "windows": "", "mac": "Cmd+Shift+T", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Switch between open windows", "windows": "", "mac": "Cmd+`", "category": "Windows", "difficulty": "intermediate" },
+    { "action": "Go back", "windows": "", "mac": "Cmd+[", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go forward", "windows": "", "mac": "Cmd+]", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go to your homepage", "windows": "", "mac": "Cmd+Shift+H", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Scroll to the top of the page", "windows": "", "mac": "Cmd+Up", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Scroll to the bottom of the page", "windows": "", "mac": "Cmd+Down", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Select the Smart Search field", "windows": "", "mac": "Cmd+L", "category": "Address bar", "difficulty": "beginner" },
+    { "action": "Show Bookmarks sidebar", "windows": "", "mac": "Ctrl+Cmd+1", "category": "Bookmarks", "difficulty": "beginner" },
+    { "action": "Show Reading List", "windows": "", "mac": "Ctrl+Cmd+2", "category": "Bookmarks", "difficulty": "intermediate" },
+    { "action": "Add current page to Reading List", "windows": "", "mac": "Cmd+Shift+D", "category": "Bookmarks", "difficulty": "intermediate" },
+    { "action": "Show the page in Reader", "windows": "", "mac": "Cmd+Shift+R", "category": "General", "difficulty": "intermediate" },
+    { "action": "Find on the current webpage", "windows": "", "mac": "Cmd+F", "category": "General", "difficulty": "beginner" },
+    { "action": "Print the current page", "windows": "", "mac": "Cmd+P", "category": "General", "difficulty": "beginner" },
+    { "action": "Copy", "windows": "", "mac": "Cmd+C", "category": "General", "difficulty": "beginner" },
+    { "action": "Paste", "windows": "", "mac": "Cmd+V", "category": "General", "difficulty": "beginner" },
+    { "action": "Open Settings", "windows": "", "mac": "Cmd+,", "category": "General", "difficulty": "intermediate" }
+  ]
+}

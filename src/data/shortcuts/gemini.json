@@ -1,0 +1,17 @@
+{
+  "app": "gemini",
+  "officialDocsUrl": "https://support.google.com/gemini/",
+  "lastVerified": "2026-07-16",
+  "note": "Google does not publish a dedicated shortcuts page for the Gemini web app. Enter, Shift+Enter, and Ctrl/Cmd+Shift+O are reliably native; others follow standard in-app / browser conventions.",
+  "shortcuts": [
+    { "action": "Send message / submit prompt", "windows": "Enter", "mac": "Enter", "category": "Chat", "difficulty": "beginner" },
+    { "action": "New line in prompt (without sending)", "windows": "Shift+Enter", "mac": "Shift+Enter", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Start a new chat", "windows": "Ctrl+Shift+O", "mac": "Cmd+Shift+O", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Copy the last response to clipboard", "windows": "Ctrl+Shift+C", "mac": "Cmd+Shift+C", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Show keyboard shortcuts reference", "windows": "Ctrl+/", "mac": "Cmd+/", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Insert an extension or tool (type @, then name)", "windows": "@", "mac": "@", "category": "Chat", "difficulty": "intermediate" },
+    { "action": "Select all text in the prompt box", "windows": "Ctrl+A", "mac": "Cmd+A", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Undo text edit in prompt box", "windows": "Ctrl+Z", "mac": "Cmd+Z", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Redo text edit in prompt box", "windows": "Ctrl+Y", "mac": "Cmd+Shift+Z", "category": "Editing", "difficulty": "intermediate" }
+  ]
+}

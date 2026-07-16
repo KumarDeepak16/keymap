@@ -1,0 +1,33 @@
+{
+  "app": "github-desktop",
+  "officialDocsUrl": "https://docs.github.com/en/desktop/overview/github-desktop-keyboard-shortcuts",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Add a new repository", "windows": "Ctrl+N", "mac": "Cmd+N", "category": "Version control", "difficulty": "beginner" },
+    { "action": "Add a local repository", "windows": "Ctrl+O", "mac": "Cmd+O", "category": "Version control", "difficulty": "beginner" },
+    { "action": "Clone a repository", "windows": "Ctrl+Shift+O", "mac": "Cmd+Shift+O", "category": "Version control", "difficulty": "beginner" },
+    { "action": "Show repository list", "windows": "Ctrl+T", "mac": "Cmd+T", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Push commits", "windows": "Ctrl+P", "mac": "Cmd+P", "category": "Version control", "difficulty": "beginner" },
+    { "action": "Pull changes", "windows": "Ctrl+Shift+P", "mac": "Cmd+Shift+P", "category": "Version control", "difficulty": "beginner" },
+    { "action": "Remove a repository", "windows": "Ctrl+Delete", "mac": "Cmd+Delete", "category": "Version control", "difficulty": "intermediate" },
+    { "action": "View repository on GitHub", "windows": "Ctrl+Shift+G", "mac": "Cmd+Shift+G", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Open in terminal", "windows": "Ctrl+`", "mac": "Ctrl+`", "category": "General", "difficulty": "intermediate" },
+    { "action": "Show in file explorer", "windows": "Ctrl+Shift+F", "mac": "Cmd+Shift+F", "category": "General", "difficulty": "beginner" },
+    { "action": "Open in external editor", "windows": "Ctrl+Shift+A", "mac": "Cmd+Shift+A", "category": "General", "difficulty": "beginner" },
+    { "action": "Create an issue", "windows": "Ctrl+I", "mac": "Cmd+I", "category": "General", "difficulty": "intermediate" },
+    { "action": "Show changes", "windows": "Ctrl+1", "mac": "Cmd+1", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Show commit history", "windows": "Ctrl+2", "mac": "Cmd+2", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Show all branches", "windows": "Ctrl+B", "mac": "Cmd+B", "category": "Version control", "difficulty": "beginner" },
+    { "action": "Commit changes", "windows": "Ctrl+Enter", "mac": "Cmd+Enter", "category": "Version control", "difficulty": "beginner" },
+    { "action": "Select or deselect files", "windows": "Space", "mac": "Space", "category": "Version control", "difficulty": "beginner" },
+    { "action": "Create a new branch", "windows": "Ctrl+Shift+N", "mac": "Cmd+Shift+N", "category": "Version control", "difficulty": "beginner" },
+    { "action": "Rename branch", "windows": "Ctrl+Shift+R", "mac": "Cmd+Shift+R", "category": "Version control", "difficulty": "intermediate" },
+    { "action": "Delete branch", "windows": "Ctrl+Shift+D", "mac": "Cmd+Shift+D", "category": "Version control", "difficulty": "intermediate" },
+    { "action": "Update from default branch", "windows": "Ctrl+Shift+U", "mac": "Cmd+Shift+U", "category": "Version control", "difficulty": "intermediate" },
+    { "action": "Compare to branch", "windows": "Ctrl+Shift+B", "mac": "Cmd+Shift+B", "category": "Version control", "difficulty": "intermediate" },
+    { "action": "Merge into current branch", "windows": "Ctrl+Shift+M", "mac": "Cmd+Shift+M", "category": "Version control", "difficulty": "intermediate" },
+    { "action": "Stash changes", "windows": "Ctrl+Shift+S", "mac": "Cmd+Shift+S", "category": "Version control", "difficulty": "advanced" },
+    { "action": "Show pull request", "windows": "Ctrl+R", "mac": "Cmd+R", "category": "Version control", "difficulty": "intermediate" },
+    { "action": "Open settings/options", "windows": "Ctrl+,", "mac": "Cmd+,", "category": "General", "difficulty": "beginner" }
+  ]
+}

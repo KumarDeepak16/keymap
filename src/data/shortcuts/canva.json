@@ -1,0 +1,33 @@
+{
+  "app": "canva",
+  "officialDocsUrl": "https://www.canva.com/help/canva-keyboard-shortcuts/",
+  "lastVerified": "2026-07-16",
+  "note": "Single-letter element shortcuts (T, R, L, C) are identical on Windows and Mac.",
+  "shortcuts": [
+    { "action": "Add text box", "windows": "T", "mac": "T", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Add rectangle", "windows": "R", "mac": "R", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Add line", "windows": "L", "mac": "L", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Add circle", "windows": "C", "mac": "C", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Undo", "windows": "Ctrl+Z", "mac": "Cmd+Z", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Redo", "windows": "Ctrl+Shift+Z", "mac": "Cmd+Shift+Z", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Copy", "windows": "Ctrl+C", "mac": "Cmd+C", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Paste", "windows": "Ctrl+V", "mac": "Cmd+V", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Duplicate", "windows": "Ctrl+D", "mac": "Cmd+D", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Delete element", "windows": "Delete", "mac": "Delete", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Select all", "windows": "Ctrl+A", "mac": "Cmd+A", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Group", "windows": "Ctrl+G", "mac": "Cmd+G", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Ungroup", "windows": "Ctrl+Shift+G", "mac": "Cmd+Shift+G", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Bold", "windows": "Ctrl+B", "mac": "Cmd+B", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Italic", "windows": "Ctrl+I", "mac": "Cmd+I", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Underline", "windows": "Ctrl+U", "mac": "Cmd+U", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Bring forward", "windows": "Ctrl+]", "mac": "Cmd+]", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Send backward", "windows": "Ctrl+[", "mac": "Cmd+[", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Bring to front", "windows": "Ctrl+Alt+]", "mac": "Cmd+Option+]", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Send to back", "windows": "Ctrl+Alt+[", "mac": "Cmd+Option+[", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Save", "windows": "Ctrl+S", "mac": "Cmd+S", "category": "General", "difficulty": "beginner" },
+    { "action": "Add new page", "windows": "Ctrl+Enter", "mac": "Cmd+Enter", "category": "General", "difficulty": "intermediate" },
+    { "action": "Zoom in", "windows": "Ctrl++", "mac": "Cmd++", "category": "View", "difficulty": "beginner" },
+    { "action": "Zoom out", "windows": "Ctrl+-", "mac": "Cmd+-", "category": "View", "difficulty": "beginner" },
+    { "action": "Fit / zoom to 100%", "windows": "Ctrl+0", "mac": "Cmd+0", "category": "View", "difficulty": "beginner" }
+  ]
+}

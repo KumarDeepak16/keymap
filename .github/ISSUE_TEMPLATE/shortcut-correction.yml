@@ -1,0 +1,41 @@
+name: Shortcut correction
+description: Report an incorrect, outdated, or missing keyboard shortcut.
+title: "[data]: "
+labels: ["data", "shortcut-fix"]
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App
+      description: Which app? (e.g. VS Code, Excel, Figma)
+      placeholder: VS Code
+    validations:
+      required: true
+  - type: input
+    id: action
+    attributes:
+      label: Action
+      description: What does the shortcut do?
+      placeholder: Toggle line comment
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current value on KeyMap
+      placeholder: "Windows: Ctrl+K / macOS: Cmd+K"
+  - type: input
+    id: correct
+    attributes:
+      label: Correct value
+      placeholder: "Windows: Ctrl+/ / macOS: Cmd+/"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: Link to the official documentation confirming the correct value.
+      placeholder: https://code.visualstudio.com/docs/reference/default-keybindings
+    validations:
+      required: true

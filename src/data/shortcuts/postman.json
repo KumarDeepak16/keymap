@@ -1,0 +1,25 @@
+{
+  "app": "postman",
+  "officialDocsUrl": "https://learning.postman.com/docs/getting-started/installation/settings/",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Send request", "windows": "Ctrl+Enter", "mac": "Cmd+Enter", "category": "Requests", "difficulty": "beginner" },
+    { "action": "Save", "windows": "Ctrl+S", "mac": "Cmd+S", "category": "Requests", "difficulty": "beginner" },
+    { "action": "Save as", "windows": "Ctrl+Shift+S", "mac": "Cmd+Shift+S", "category": "Requests", "difficulty": "beginner" },
+    { "action": "Open a new tab", "windows": "Ctrl+T", "mac": "Cmd+T", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Close current tab", "windows": "Ctrl+W", "mac": "Cmd+W", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Jump to URL bar", "windows": "Ctrl+L", "mac": "Cmd+L", "category": "Requests", "difficulty": "beginner" },
+    { "action": "Search Postman", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "Search", "difficulty": "beginner" },
+    { "action": "Search / filter sidebar", "windows": "Ctrl+F", "mac": "Cmd+F", "category": "Search", "difficulty": "beginner" },
+    { "action": "Open console", "windows": "Ctrl+Alt+C", "mac": "Cmd+Alt+C", "category": "General", "difficulty": "intermediate" },
+    { "action": "Toggle sidebar", "windows": "Ctrl+\\", "mac": "Cmd+\\", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Focus sidebar", "windows": "Ctrl+Alt+1", "mac": "Cmd+Alt+1", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Focus request builder", "windows": "Ctrl+Alt+2", "mac": "Cmd+Alt+2", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Open settings", "windows": "Ctrl+,", "mac": "Cmd+,", "category": "General", "difficulty": "beginner" },
+    { "action": "Import", "windows": "Ctrl+O", "mac": "Cmd+O", "category": "General", "difficulty": "beginner" },
+    { "action": "Zoom in", "windows": "Ctrl+=", "mac": "Cmd+=", "category": "General", "difficulty": "beginner" },
+    { "action": "Zoom out", "windows": "Ctrl+-", "mac": "Cmd+-", "category": "General", "difficulty": "beginner" },
+    { "action": "Reset zoom", "windows": "Ctrl+0", "mac": "Cmd+0", "category": "General", "difficulty": "beginner" },
+    { "action": "Duplicate", "windows": "Ctrl+D", "mac": "Cmd+D", "category": "Editing", "difficulty": "intermediate" }
+  ]
+}

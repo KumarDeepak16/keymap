@@ -1,0 +1,30 @@
+{
+  "app": "outlook",
+  "officialDocsUrl": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Create a new email message", "windows": "Ctrl+N", "mac": "Cmd+N", "category": "Mail", "difficulty": "beginner" },
+    { "action": "Send the message", "windows": "Ctrl+Enter", "mac": "Cmd+Enter", "category": "Mail", "difficulty": "beginner" },
+    { "action": "Reply to sender", "windows": "Ctrl+R", "mac": "Cmd+R", "category": "Mail", "difficulty": "beginner" },
+    { "action": "Reply to all", "windows": "Ctrl+Shift+R", "mac": "Cmd+Shift+R", "category": "Mail", "difficulty": "beginner" },
+    { "action": "Forward the message", "windows": "Ctrl+F", "mac": "Cmd+J", "category": "Mail", "difficulty": "beginner" },
+    { "action": "Delete the selected message", "windows": "Delete", "mac": "Delete", "category": "Actions", "difficulty": "beginner" },
+    { "action": "Permanently delete the message", "windows": "Shift+Delete", "mac": "Shift+Delete", "category": "Actions", "difficulty": "intermediate" },
+    { "action": "Search", "windows": "Ctrl+E", "mac": "Option+Cmd+F", "category": "Actions", "difficulty": "beginner" },
+    { "action": "Find text within an open item", "windows": "F4", "mac": "Cmd+F", "category": "Actions", "difficulty": "intermediate" },
+    { "action": "Switch to Mail view", "windows": "Ctrl+1", "mac": "Cmd+1", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Switch to Calendar view", "windows": "Ctrl+2", "mac": "Cmd+2", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Create a new meeting request", "windows": "Ctrl+Shift+Q", "mac": "Ctrl+Cmd+Q", "category": "Calendar", "difficulty": "intermediate" },
+    { "action": "Mark message as read", "windows": "Ctrl+Q", "mac": "Cmd+T", "category": "Mail", "difficulty": "intermediate" },
+    { "action": "Mark message as unread", "windows": "Ctrl+U", "mac": "Cmd+Shift+T", "category": "Mail", "difficulty": "intermediate" },
+    { "action": "Move the message to a folder", "windows": "Ctrl+Shift+V", "mac": "Cmd+Shift+M", "category": "Actions", "difficulty": "intermediate" },
+    { "action": "Mark message as junk", "windows": "Ctrl+Shift+J", "mac": "Cmd+Shift+J", "category": "Mail", "difficulty": "intermediate" },
+    { "action": "Go to the next message", "windows": "Ctrl+.", "mac": "Ctrl+]", "category": "Reading", "difficulty": "intermediate" },
+    { "action": "Go to the previous message", "windows": "Ctrl+,", "mac": "Ctrl+[", "category": "Reading", "difficulty": "intermediate" },
+    { "action": "Send and receive all folders", "windows": "F9", "mac": "Ctrl+Cmd+K", "category": "Actions", "difficulty": "intermediate" },
+    { "action": "Save the current item", "windows": "Ctrl+S", "mac": "Cmd+S", "category": "Actions", "difficulty": "beginner" },
+    { "action": "Print the selected item", "windows": "Ctrl+P", "mac": "Cmd+P", "category": "Actions", "difficulty": "beginner" },
+    { "action": "Undo the last action", "windows": "Ctrl+Z", "mac": "Cmd+Z", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Advanced search", "windows": "Ctrl+Shift+F", "mac": "Cmd+Shift+F", "category": "Actions", "difficulty": "advanced" }
+  ]
+}

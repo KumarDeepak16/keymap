@@ -1,0 +1,17 @@
+{
+  "app": "perplexity",
+  "officialDocsUrl": "https://www.perplexity.ai/help-center/en/articles/10352895-what-are-the-keyboard-shortcuts",
+  "lastVerified": "2026-07-16",
+  "note": "The canonical source is Perplexity's Help Center and in-app shortcuts panel (? icon). Use Cmd on macOS wherever Ctrl is shown.",
+  "shortcuts": [
+    { "action": "New thread", "windows": "Ctrl+I", "mac": "Cmd+I", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Focus / open search input", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Focus the search bar", "windows": "/", "mac": "/", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "New line without submitting", "windows": "Shift+Enter", "mac": "Shift+Enter", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Submit query", "windows": "Enter", "mac": "Enter", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Copy last answer", "windows": "Ctrl+Shift+C", "mac": "Cmd+Shift+C", "category": "General", "difficulty": "intermediate" },
+    { "action": "Move between interactive elements", "windows": "Tab", "mac": "Tab", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Move back between elements", "windows": "Shift+Tab", "mac": "Shift+Tab", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Close modal / menu", "windows": "Esc", "mac": "Esc", "category": "General", "difficulty": "beginner" }
+  ]
+}

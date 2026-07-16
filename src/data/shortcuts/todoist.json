@@ -1,0 +1,29 @@
+{
+  "app": "todoist",
+  "officialDocsUrl": "https://www.todoist.com/help/articles/use-keyboard-shortcuts-in-todoist-Wyovn2",
+  "lastVerified": "2026-07-16",
+  "note": "Global Quick Add and Ramble shortcuts are unsupported on Linux.",
+  "shortcuts": [
+    { "action": "Quick Add a task", "windows": "Q", "mac": "Q", "category": "Tasks", "difficulty": "beginner" },
+    { "action": "Open Quick Find / command menu", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "General", "difficulty": "beginner" },
+    { "action": "Add task to bottom of list", "windows": "A", "mac": "A", "category": "Tasks", "difficulty": "beginner" },
+    { "action": "Add task to top of list", "windows": "Shift+A", "mac": "Shift+A", "category": "Tasks", "difficulty": "intermediate" },
+    { "action": "Complete selected task", "windows": "E", "mac": "E", "category": "Tasks", "difficulty": "beginner" },
+    { "action": "Edit selected task", "windows": "Ctrl+E", "mac": "Cmd+E", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Open selected task view", "windows": "Enter", "mac": "Enter", "category": "Tasks", "difficulty": "beginner" },
+    { "action": "Set task date / schedule", "windows": "T", "mac": "T", "category": "Tasks", "difficulty": "beginner" },
+    { "action": "Set task priority", "windows": "Y", "mac": "Y", "category": "Tasks", "difficulty": "intermediate" },
+    { "action": "Add a comment", "windows": "C", "mac": "C", "category": "Tasks", "difficulty": "intermediate" },
+    { "action": "Add a label", "windows": "L", "mac": "L", "category": "Tasks", "difficulty": "intermediate" },
+    { "action": "Move task to project / section", "windows": "V", "mac": "V", "category": "Tasks", "difficulty": "intermediate" },
+    { "action": "Select task (multi-select)", "windows": "X", "mac": "X", "category": "Tasks", "difficulty": "intermediate" },
+    { "action": "Move focus down", "windows": "J", "mac": "J", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Move focus up", "windows": "K", "mac": "K", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go to Inbox", "windows": "G I", "mac": "G I", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Go to Today", "windows": "G T", "mac": "G T", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Go to Upcoming", "windows": "G U", "mac": "G U", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Go to Projects", "windows": "G P", "mac": "G P", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Delete selected task(s)", "windows": "Shift+Delete", "mac": "Cmd+Delete", "category": "Tasks", "difficulty": "advanced" },
+    { "action": "Show keyboard shortcuts", "windows": "?", "mac": "?", "category": "General", "difficulty": "beginner" }
+  ]
+}

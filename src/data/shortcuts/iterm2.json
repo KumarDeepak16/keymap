@@ -1,0 +1,31 @@
+{
+  "app": "iterm2",
+  "officialDocsUrl": "https://iterm2.com/documentation-one-page.html",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "New window", "windows": "", "mac": "Cmd+N", "category": "Windows", "difficulty": "beginner" },
+    { "action": "New tab", "windows": "", "mac": "Cmd+T", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Close tab or split pane", "windows": "", "mac": "Cmd+W", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Undo close (restore session)", "windows": "", "mac": "Cmd+Z", "category": "Session", "difficulty": "intermediate" },
+    { "action": "Split pane vertically", "windows": "", "mac": "Cmd+D", "category": "Panes", "difficulty": "beginner" },
+    { "action": "Split pane horizontally", "windows": "", "mac": "Cmd+Shift+D", "category": "Panes", "difficulty": "beginner" },
+    { "action": "Navigate between split panes", "windows": "", "mac": "Cmd+Option+Left", "category": "Panes", "difficulty": "intermediate" },
+    { "action": "Cycle split panes in order of use", "windows": "", "mac": "Cmd+]", "category": "Panes", "difficulty": "intermediate" },
+    { "action": "Cycle split panes (reverse order of use)", "windows": "", "mac": "Cmd+[", "category": "Panes", "difficulty": "intermediate" },
+    { "action": "Maximize / restore current pane", "windows": "", "mac": "Cmd+Shift+Enter", "category": "Panes", "difficulty": "advanced" },
+    { "action": "Next tab", "windows": "", "mac": "Cmd+}", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Previous tab", "windows": "", "mac": "Cmd+{", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Go to tab by number", "windows": "", "mac": "Cmd+1", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Toggle full screen", "windows": "", "mac": "Cmd+Enter", "category": "Windows", "difficulty": "beginner" },
+    { "action": "Open Quickly (switch sessions)", "windows": "", "mac": "Cmd+Shift+O", "category": "Navigation", "difficulty": "advanced" },
+    { "action": "Find", "windows": "", "mac": "Cmd+F", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Find next", "windows": "", "mac": "Cmd+G", "category": "Selection", "difficulty": "intermediate" },
+    { "action": "Find previous", "windows": "", "mac": "Cmd+Shift+G", "category": "Selection", "difficulty": "intermediate" },
+    { "action": "Copy", "windows": "", "mac": "Cmd+C", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Paste", "windows": "", "mac": "Cmd+V", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Select all", "windows": "", "mac": "Cmd+A", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Toggle broadcast input to all panes", "windows": "", "mac": "Cmd+Option+I", "category": "Session", "difficulty": "advanced" },
+    { "action": "Increase font size", "windows": "", "mac": "Cmd++", "category": "General", "difficulty": "beginner" },
+    { "action": "Decrease font size", "windows": "", "mac": "Cmd+-", "category": "General", "difficulty": "beginner" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "app": "jira",
+  "officialDocsUrl": "https://support.atlassian.com/jira-software-cloud/docs/use-keyboard-shortcuts/",
+  "lastVerified": "2026-07-16",
+  "note": "Some shortcuts depend on permissions and installed apps. Press ? for the in-app shortcuts dialog.",
+  "shortcuts": [
+    { "action": "Create a new work item / issue", "windows": "C", "mac": "C", "category": "Issues", "difficulty": "beginner" },
+    { "action": "Open keyboard shortcuts dialog", "windows": "Shift+?", "mac": "Shift+?", "category": "General", "difficulty": "beginner" },
+    { "action": "Move down to next work item", "windows": "J", "mac": "J", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Move up to previous work item", "windows": "K", "mac": "K", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Move to next column (board)", "windows": "N", "mac": "N", "category": "Boards", "difficulty": "intermediate" },
+    { "action": "Move to previous column (board)", "windows": "P", "mac": "P", "category": "Boards", "difficulty": "intermediate" },
+    { "action": "Open the selected work item", "windows": "O", "mac": "O", "category": "Issues", "difficulty": "beginner" },
+    { "action": "Assign work item to someone", "windows": "A", "mac": "A", "category": "Issues", "difficulty": "intermediate" },
+    { "action": "Assign work item to yourself", "windows": "I", "mac": "I", "category": "Issues", "difficulty": "intermediate" },
+    { "action": "Add a comment to work item", "windows": "M", "mac": "M", "category": "Issues", "difficulty": "intermediate" },
+    { "action": "Edit the work item", "windows": "E", "mac": "E", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Quick global search", "windows": "/", "mac": "/", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go to your work / dashboard", "windows": "G D", "mac": "G D", "category": "Navigation", "difficulty": "advanced" },
+    { "action": "Submit form / comment", "windows": "Ctrl+Enter", "mac": "Cmd+Enter", "category": "Editing", "difficulty": "intermediate" }
+  ]
+}

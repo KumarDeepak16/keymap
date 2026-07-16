@@ -1,0 +1,32 @@
+{
+  "app": "terminal",
+  "officialDocsUrl": "https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "New window", "windows": "", "mac": "Cmd+N", "category": "Windows", "difficulty": "beginner" },
+    { "action": "New tab", "windows": "", "mac": "Cmd+T", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "New tab with same command", "windows": "", "mac": "Ctrl+Cmd+T", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Show or hide tab bar", "windows": "", "mac": "Shift+Cmd+T", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Show all tabs or exit tab overview", "windows": "", "mac": "Shift+Cmd+\\", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Close tab", "windows": "", "mac": "Cmd+W", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Close window", "windows": "", "mac": "Shift+Cmd+W", "category": "Windows", "difficulty": "beginner" },
+    { "action": "Next tab", "windows": "", "mac": "Ctrl+Tab", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Previous tab", "windows": "", "mac": "Ctrl+Shift+Tab", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Split window into two panes", "windows": "", "mac": "Cmd+D", "category": "Panes", "difficulty": "intermediate" },
+    { "action": "Close split pane", "windows": "", "mac": "Shift+Cmd+D", "category": "Panes", "difficulty": "intermediate" },
+    { "action": "Move insertion point to beginning of line", "windows": "", "mac": "Ctrl+A", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Move insertion point to end of line", "windows": "", "mac": "Ctrl+E", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Delete the line", "windows": "", "mac": "Ctrl+U", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Delete to end of line", "windows": "", "mac": "Ctrl+K", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Delete backward to beginning of word", "windows": "", "mac": "Ctrl+W", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Find", "windows": "", "mac": "Cmd+F", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Find next", "windows": "", "mac": "Cmd+G", "category": "Selection", "difficulty": "intermediate" },
+    { "action": "Find previous", "windows": "", "mac": "Cmd+Shift+G", "category": "Selection", "difficulty": "intermediate" },
+    { "action": "Copy", "windows": "", "mac": "Cmd+C", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Paste", "windows": "", "mac": "Cmd+V", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Select all", "windows": "", "mac": "Cmd+A", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Reverse search command history", "windows": "", "mac": "Ctrl+R", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Complete directory or file name", "windows": "", "mac": "Tab", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Enter or exit full screen", "windows": "", "mac": "Ctrl+Cmd+F", "category": "General", "difficulty": "beginner" }
+  ]
+}

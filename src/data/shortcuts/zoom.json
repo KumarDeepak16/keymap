@@ -1,0 +1,25 @@
+{
+  "app": "zoom",
+  "officialDocsUrl": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067050",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Mute or unmute my audio", "windows": "Alt+A", "mac": "Cmd+Shift+A", "category": "Audio", "difficulty": "beginner" },
+    { "action": "Mute all except host", "windows": "Alt+M", "mac": "Cmd+Ctrl+M", "category": "Audio", "difficulty": "intermediate" },
+    { "action": "Start or stop video", "windows": "Alt+V", "mac": "Cmd+Shift+V", "category": "Video", "difficulty": "beginner" },
+    { "action": "Start or stop screen share", "windows": "Alt+S", "mac": "Cmd+Shift+S", "category": "Meetings", "difficulty": "beginner" },
+    { "action": "Pause or resume screen share", "windows": "Alt+T", "mac": "Cmd+Shift+T", "category": "Meetings", "difficulty": "intermediate" },
+    { "action": "Start or stop local recording", "windows": "Alt+R", "mac": "Cmd+Shift+R", "category": "Meetings", "difficulty": "intermediate" },
+    { "action": "Start or stop cloud recording", "windows": "Alt+C", "mac": "Cmd+Shift+C", "category": "Meetings", "difficulty": "intermediate" },
+    { "action": "Raise or lower hand", "windows": "Alt+Y", "mac": "Option+Y", "category": "Meetings", "difficulty": "beginner" },
+    { "action": "Switch to gallery view", "windows": "Alt+F2", "mac": "Cmd+Shift+W", "category": "View", "difficulty": "intermediate" },
+    { "action": "Switch to speaker view", "windows": "Alt+F1", "mac": "Cmd+Shift+W", "category": "View", "difficulty": "intermediate" },
+    { "action": "Enter or exit full screen", "windows": "Alt+F", "mac": "Cmd+Shift+F", "category": "View", "difficulty": "beginner" },
+    { "action": "Always show meeting controls", "windows": "Ctrl+Alt+Shift+H", "mac": "Ctrl+Option+Cmd+H", "category": "View", "difficulty": "advanced" },
+    { "action": "Show or hide chat panel", "windows": "Alt+H", "mac": "Cmd+Shift+H", "category": "Meetings", "difficulty": "beginner" },
+    { "action": "Show or hide participants panel", "windows": "Alt+U", "mac": "Cmd+U", "category": "Meetings", "difficulty": "beginner" },
+    { "action": "Open invite window", "windows": "Alt+I", "mac": "Cmd+I", "category": "Meetings", "difficulty": "beginner" },
+    { "action": "End or leave meeting", "windows": "Alt+Q", "mac": "Cmd+W", "category": "Meetings", "difficulty": "beginner" },
+    { "action": "Switch camera", "windows": "Alt+N", "mac": "Cmd+Shift+N", "category": "Video", "difficulty": "intermediate" },
+    { "action": "Take a screenshot", "windows": "Alt+Shift+T", "mac": "Cmd+T", "category": "Meetings", "difficulty": "intermediate" }
+  ]
+}

@@ -1,26 +1,288 @@
 @import "tailwindcss";
 
+/*
+  KeyMap design system — warm editorial minimalism.
+  Palette: warm bone canvas, charcoal ink, scarce muted-pastel accents.
+  Two themes driven by [data-theme] on <html>; no prefers-color-scheme guessing.
+*/
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ── Light (warm bone) ── */
+  --bg: #faf9f6;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-sunken: #f4f2ec;
+  --ink: #1a1a17;
+  --ink-secondary: #6b6a63;
+  --ink-tertiary: #9a988e;
+  --border: #e7e4dc;
+  --border-strong: #d8d4c8;
+  --ring: #1a1a17;
+
+  /* muted pastel accents (bg / text pairs) */
+  --red-bg: #fdebec;      --red-ink: #9f2f2d;
+  --blue-bg: #e6f0fb;     --blue-ink: #1f5f9f;
+  --green-bg: #ecf3ec;    --green-ink: #346538;
+  --yellow-bg: #faf1d8;   --yellow-ink: #8a6400;
+  --purple-bg: #f0ebfa;   --purple-ink: #5b3f9f;
+  --neutral-bg: #f0eee8;  --neutral-ink: #55534b;
+
+  --shadow-card: 0 1px 2px rgba(26, 26, 23, 0.03);
+  --shadow-hover: 0 4px 16px rgba(26, 26, 23, 0.06);
+  --shadow-float: 0 12px 40px rgba(26, 26, 23, 0.12);
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --radius-lg: 16px;
+
+  --font-sans: var(--font-sans-var), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: var(--font-serif-var), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-mono-var), "SF Mono", ui-monospace, monospace;
+
+  --maxw: 1200px;
+}
+
+[data-theme="dark"] {
+  --bg: #14130f;
+  --bg-elevated: #1c1b16;
+  --surface: #1c1b16;
+  --surface-sunken: #100f0c;
+  --ink: #f3f1e9;
+  --ink-secondary: #a5a294;
+  --ink-tertiary: #726f63;
+  --border: #2b2921;
+  --border-strong: #3a3830;
+  --ring: #f3f1e9;
+
+  --red-bg: #3a201f;      --red-ink: #f0a3a0;
+  --blue-bg: #16283a;     --blue-ink: #92c2ec;
+  --green-bg: #1a2c1c;    --green-ink: #a3d3a7;
+  --yellow-bg: #322a12;   --yellow-ink: #e8c877;
+  --purple-bg: #251d38;   --purple-ink: #c3aef0;
+  --neutral-bg: #26241d;  --neutral-ink: #b4b1a3;
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-float: 0 12px 40px rgba(0, 0, 0, 0.6);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-surface: var(--surface);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-ink: var(--ink);
+  --color-ink-secondary: var(--ink-secondary);
+  --color-ink-tertiary: var(--ink-tertiary);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+/* Never allow horizontal page scroll (mobile grid/overflow guard) */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Grid children shrink instead of forcing horizontal overflow on small screens */
+[class*="grid-cols"] > * {
+  min-width: 0;
+}
+
+/* Long unbreakable strings (combos, code) wrap instead of pushing width */
+.kbd {
+  max-width: 100%;
+}
+
+/* Media never overflows its container */
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Pointer cursor on all interactive controls */
+button,
+a,
+[role="button"],
+[role="tab"],
+label[for],
+summary,
+select {
+  cursor: pointer;
+}
+button:disabled,
+[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+/* Physical key — <kbd> */
+.kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.7em;
+  height: 1.7em;
+  padding: 0 0.5em;
+  font-family: var(--font-mono);
+  font-size: 0.78em;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--ink);
+  background: var(--surface-sunken);
+  border: 1px solid var(--border-strong);
+  border-bottom-width: 2px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  transition: transform 90ms ease, box-shadow 90ms ease;
+}
+.kbd[data-pressed="true"] {
+  transform: translateY(1px);
+  border-bottom-width: 1px;
+  background: var(--ink);
+  color: var(--bg);
+}
+
+/* Accent chips driven by data-accent */
+[data-accent="red"]    { --a-bg: var(--red-bg);    --a-ink: var(--red-ink); }
+[data-accent="blue"]   { --a-bg: var(--blue-bg);   --a-ink: var(--blue-ink); }
+[data-accent="green"]  { --a-bg: var(--green-bg);  --a-ink: var(--green-ink); }
+[data-accent="yellow"] { --a-bg: var(--yellow-bg); --a-ink: var(--yellow-ink); }
+[data-accent="purple"] { --a-bg: var(--purple-bg); --a-ink: var(--purple-ink); }
+[data-accent="neutral"]{ --a-bg: var(--neutral-bg);--a-ink: var(--neutral-ink); }
+
+/* Scroll-entry animation */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.rise {
+  animation: rise 600ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes sheet-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes sheet-fade {
+  from { opacity: 0; transform: scale(0.98); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--surface-sunken) 0%,
+    var(--border) 40%,
+    var(--surface-sunken) 80%
+  );
+  background-size: 800px 100%;
+  animation: shimmer 1.4s infinite linear;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise, .skeleton { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* ── Premium global scrollbar ── */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border: 3px solid var(--bg);
+  border-radius: 999px;
+  transition: background 150ms ease;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--ink-tertiary); }
+::-webkit-scrollbar-corner { background: transparent; }
+
+/* thinner variant for inner panels (palette, chip rows) */
+.scroll-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  border-radius: 999px;
+}
+.scroll-thin::-webkit-scrollbar-track { background: transparent; }
+
+/* ── Accessibility ── */
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+/* don't double-outline inputs that already show a ring */
+input:focus-visible { outline: none; }
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 100;
+  transform: translateY(-150%);
+  padding: 0.5rem 1rem;
+  background: var(--ink);
+  color: var(--bg);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: transform 150ms ease;
+}
+.skip-link:focus { transform: translateY(0); }
+
+/* Print / PDF mode — clean cheat sheet */
+@media print {
+  :root { --bg: #fff; --surface: #fff; --ink: #000; }
+  header.sticky, footer, .print\:hidden { display: none !important; }
+  body { background: #fff; }
+  .kbd { border: 1px solid #999; background: #f4f4f4; }
+  a { text-decoration: none; color: #000; }
 }

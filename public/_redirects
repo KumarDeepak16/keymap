@@ -1,0 +1,12 @@
+# Netlify redirects for keymap.1619.in
+# Canonicalize www -> apex (host handled at DNS/Netlify domain settings too)
+https://www.keymap.1619.in/*   https://keymap.1619.in/:splat   301!
+
+# Common shortcut path aliases -> app pages
+/vscode        /app/vscode        301
+/excel         /app/excel         301
+/chrome        /app/chrome        301
+/figma         /app/figma         301
+
+# Search-tips alias
+/search-tips   /google-search-tips   301

@@ -1,0 +1,31 @@
+{
+  "app": "discord",
+  "officialDocsUrl": "https://support.discord.com/hc/en-us/articles/31232432266647-Discord-Commands-Shortcuts-and-Navigation-Guide",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Open keyboard shortcuts menu", "windows": "Ctrl+/", "mac": "Cmd+/", "category": "General", "difficulty": "beginner" },
+    { "action": "Open quick switcher", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Previous channel", "windows": "Alt+Up", "mac": "Option+Up", "category": "Channels", "difficulty": "beginner" },
+    { "action": "Next channel", "windows": "Alt+Down", "mac": "Option+Down", "category": "Channels", "difficulty": "beginner" },
+    { "action": "Previous server", "windows": "Ctrl+Alt+Up", "mac": "Cmd+Option+Up", "category": "Server", "difficulty": "intermediate" },
+    { "action": "Next server", "windows": "Ctrl+Alt+Down", "mac": "Cmd+Option+Down", "category": "Server", "difficulty": "intermediate" },
+    { "action": "Navigate to previous unread channel", "windows": "Alt+Shift+Up", "mac": "Option+Shift+Up", "category": "Channels", "difficulty": "intermediate" },
+    { "action": "Navigate to next unread channel", "windows": "Alt+Shift+Down", "mac": "Option+Shift+Down", "category": "Channels", "difficulty": "intermediate" },
+    { "action": "Jump to oldest unread message", "windows": "Shift+PageUp", "mac": "Shift+PageUp", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Mark channel as read", "windows": "Esc", "mac": "Esc", "category": "Channels", "difficulty": "beginner" },
+    { "action": "Mark server as read", "windows": "Shift+Esc", "mac": "Shift+Esc", "category": "Server", "difficulty": "intermediate" },
+    { "action": "Toggle mute", "windows": "Ctrl+Shift+M", "mac": "Cmd+Shift+M", "category": "Voice", "difficulty": "beginner" },
+    { "action": "Toggle deafen", "windows": "Ctrl+Shift+D", "mac": "Cmd+Shift+D", "category": "Voice", "difficulty": "beginner" },
+    { "action": "Search current channel", "windows": "Ctrl+F", "mac": "Cmd+F", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Toggle emoji picker", "windows": "Ctrl+E", "mac": "Cmd+E", "category": "Chat", "difficulty": "intermediate" },
+    { "action": "Toggle GIF picker", "windows": "Ctrl+G", "mac": "Cmd+G", "category": "Chat", "difficulty": "intermediate" },
+    { "action": "Upload a file", "windows": "Ctrl+Shift+U", "mac": "Cmd+Shift+U", "category": "Chat", "difficulty": "intermediate" },
+    { "action": "Create or join a server", "windows": "Ctrl+Shift+N", "mac": "Cmd+Shift+N", "category": "Server", "difficulty": "intermediate" },
+    { "action": "Edit last message", "windows": "Up", "mac": "Up", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Add new line in message", "windows": "Shift+Enter", "mac": "Shift+Enter", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Bold text", "windows": "Ctrl+B", "mac": "Cmd+B", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Italic text", "windows": "Ctrl+I", "mac": "Cmd+I", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Underline text", "windows": "Ctrl+U", "mac": "Cmd+U", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Strikethrough text", "windows": "Ctrl+Shift+S", "mac": "Cmd+Shift+S", "category": "Editing", "difficulty": "intermediate" }
+  ]
+}

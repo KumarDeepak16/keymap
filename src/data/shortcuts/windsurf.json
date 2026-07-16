@@ -1,0 +1,23 @@
+{
+  "app": "windsurf",
+  "officialDocsUrl": "https://docs.windsurf.com/",
+  "lastVerified": "2026-07-16",
+  "note": "Windsurf is a VS Code fork, so standard VS Code editor shortcuts also apply alongside these AI-specific ones.",
+  "shortcuts": [
+    { "action": "Open Cascade (agent chat)", "windows": "Ctrl+L", "mac": "Cmd+L", "category": "AI", "difficulty": "beginner" },
+    { "action": "Open Command (inline edit)", "windows": "Ctrl+I", "mac": "Cmd+I", "category": "AI", "difficulty": "beginner" },
+    { "action": "Accept autocomplete suggestion", "windows": "Tab", "mac": "Tab", "category": "AI", "difficulty": "beginner" },
+    { "action": "Cancel autocomplete suggestion", "windows": "Esc", "mac": "Esc", "category": "AI", "difficulty": "beginner" },
+    { "action": "Trigger autocomplete suggestion", "windows": "Alt+\\", "mac": "Option+\\", "category": "AI", "difficulty": "intermediate" },
+    { "action": "Accept Command diff", "windows": "Ctrl+Enter", "mac": "Cmd+Enter", "category": "AI", "difficulty": "intermediate" },
+    { "action": "Reject Command diff", "windows": "Ctrl+Delete", "mac": "Cmd+Delete", "category": "AI", "difficulty": "intermediate" },
+    { "action": "Command Palette", "windows": "Ctrl+Shift+P", "mac": "Cmd+Shift+P", "category": "General", "difficulty": "beginner" },
+    { "action": "Quick Open file", "windows": "Ctrl+P", "mac": "Cmd+P", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Toggle terminal", "windows": "Ctrl+`", "mac": "Cmd+`", "category": "View", "difficulty": "beginner" },
+    { "action": "Toggle sidebar", "windows": "Ctrl+B", "mac": "Cmd+B", "category": "View", "difficulty": "beginner" },
+    { "action": "Go to definition", "windows": "Ctrl+F12", "mac": "Cmd+F12", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Find in files", "windows": "Ctrl+Shift+F", "mac": "Cmd+Shift+F", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Comment line", "windows": "Ctrl+/", "mac": "Cmd+/", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Multi-cursor add below", "windows": "Ctrl+Alt+Down", "mac": "Cmd+Option+Down", "category": "Editing", "difficulty": "advanced" }
+  ]
+}

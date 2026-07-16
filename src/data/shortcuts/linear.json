@@ -1,0 +1,26 @@
+{
+  "app": "linear",
+  "officialDocsUrl": "https://linear.app/docs",
+  "lastVerified": "2026-07-16",
+  "note": "Press ? in-app for the full shortcuts help. Sequence shortcuts (e.g. G I) use two keys in succession.",
+  "shortcuts": [
+    { "action": "Open command menu", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "General", "difficulty": "beginner" },
+    { "action": "Create a new issue", "windows": "C", "mac": "C", "category": "Issues", "difficulty": "beginner" },
+    { "action": "Create issue from template", "windows": "Alt+C", "mac": "Option+C", "category": "Issues", "difficulty": "advanced" },
+    { "action": "Open search", "windows": "/", "mac": "/", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Show keyboard shortcuts help", "windows": "?", "mac": "?", "category": "General", "difficulty": "beginner" },
+    { "action": "Move focus down", "windows": "J", "mac": "J", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Move focus up", "windows": "K", "mac": "K", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Assign issue to a user", "windows": "A", "mac": "A", "category": "Issues", "difficulty": "intermediate" },
+    { "action": "Assign issue to yourself", "windows": "I", "mac": "I", "category": "Issues", "difficulty": "intermediate" },
+    { "action": "Add / change label", "windows": "L", "mac": "L", "category": "Issues", "difficulty": "intermediate" },
+    { "action": "Set priority", "windows": "P", "mac": "P", "category": "Issues", "difficulty": "intermediate" },
+    { "action": "Change issue status", "windows": "S", "mac": "S", "category": "Issues", "difficulty": "intermediate" },
+    { "action": "Filter the current view", "windows": "F", "mac": "F", "category": "Issues", "difficulty": "intermediate" },
+    { "action": "Toggle board layout", "windows": "Ctrl+B", "mac": "Cmd+B", "category": "View", "difficulty": "intermediate" },
+    { "action": "Move issue to top of column", "windows": "Alt+Shift+Up", "mac": "Option+Shift+Up", "category": "Boards", "difficulty": "advanced" },
+    { "action": "Move issue to bottom of column", "windows": "Alt+Shift+Down", "mac": "Option+Shift+Down", "category": "Boards", "difficulty": "advanced" },
+    { "action": "Go to My Issues", "windows": "G I", "mac": "G I", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Open project documents list", "windows": "O D", "mac": "O D", "category": "Navigation", "difficulty": "advanced" }
+  ]
+}

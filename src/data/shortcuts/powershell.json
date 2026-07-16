@@ -1,0 +1,32 @@
+{
+  "app": "powershell",
+  "officialDocsUrl": "https://learn.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline_functions",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Accept and run the current line", "windows": "Enter", "mac": "Enter", "category": "General", "difficulty": "beginner" },
+    { "action": "Insert a new line for multi-line input", "windows": "Shift+Enter", "mac": "Shift+Enter", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Copy selection (or whole line) to clipboard", "windows": "Ctrl+C", "mac": "Ctrl+C", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Cut selected region to clipboard", "windows": "Ctrl+X", "mac": "Ctrl+X", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Paste from clipboard", "windows": "Ctrl+V", "mac": "Ctrl+V", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Undo", "windows": "Ctrl+Z", "mac": "Ctrl+Z", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Redo", "windows": "Ctrl+Y", "mac": "Ctrl+Y", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Select entire line", "windows": "Ctrl+A", "mac": "Ctrl+A", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Delete word before cursor", "windows": "Ctrl+Backspace", "mac": "Ctrl+Backspace", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Delete word after cursor", "windows": "Ctrl+Delete", "mac": "Ctrl+Delete", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Delete from cursor to start of line", "windows": "Ctrl+Home", "mac": "Ctrl+Home", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Delete from cursor to end of line", "windows": "Ctrl+End", "mac": "Ctrl+End", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Move to beginning of line", "windows": "Home", "mac": "Home", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Move to end of line", "windows": "End", "mac": "End", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Move backward one word", "windows": "Ctrl+Left", "mac": "Ctrl+Left", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Move forward one word", "windows": "Ctrl+Right", "mac": "Ctrl+Right", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Previous command in history", "windows": "Up", "mac": "Up", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Next command in history", "windows": "Down", "mac": "Down", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Reverse incremental history search", "windows": "Ctrl+R", "mac": "Ctrl+R", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Tab completion (menu complete)", "windows": "Ctrl+Space", "mac": "Ctrl+Space", "category": "General", "difficulty": "intermediate" },
+    { "action": "Complete next / previous", "windows": "Tab", "mac": "Tab", "category": "General", "difficulty": "beginner" },
+    { "action": "Clear the screen", "windows": "Ctrl+L", "mac": "Ctrl+L", "category": "General", "difficulty": "beginner" },
+    { "action": "Yank last argument of previous command", "windows": "Alt+.", "mac": "Alt+.", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Show command help", "windows": "F1", "mac": "F1", "category": "General", "difficulty": "intermediate" },
+    { "action": "Switch prediction view (Inline/List)", "windows": "F2", "mac": "F2", "category": "General", "difficulty": "advanced" }
+  ]
+}

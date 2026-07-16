@@ -1,0 +1,31 @@
+{
+  "app": "google-calendar",
+  "officialDocsUrl": "https://support.google.com/calendar/answer/37034",
+  "lastVerified": "2026-07-16",
+  "note": "Keyboard shortcuts must be enabled in Calendar Settings first.",
+  "shortcuts": [
+    { "action": "Day view", "windows": "1", "mac": "1", "category": "View", "difficulty": "beginner" },
+    { "action": "Week view", "windows": "2", "mac": "2", "category": "View", "difficulty": "beginner" },
+    { "action": "Month view", "windows": "3", "mac": "3", "category": "View", "difficulty": "beginner" },
+    { "action": "Custom view", "windows": "4", "mac": "4", "category": "View", "difficulty": "intermediate" },
+    { "action": "Schedule/agenda view", "windows": "5", "mac": "5", "category": "View", "difficulty": "beginner" },
+    { "action": "Day view (alternate)", "windows": "D", "mac": "D", "category": "View", "difficulty": "beginner" },
+    { "action": "Week view (alternate)", "windows": "W", "mac": "W", "category": "View", "difficulty": "beginner" },
+    { "action": "Month view (alternate)", "windows": "M", "mac": "M", "category": "View", "difficulty": "beginner" },
+    { "action": "Schedule view (alternate)", "windows": "A", "mac": "A", "category": "View", "difficulty": "beginner" },
+    { "action": "Next date range", "windows": "N", "mac": "N", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Previous date range", "windows": "P", "mac": "P", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go to today", "windows": "T", "mac": "T", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go to date", "windows": "G", "mac": "G", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Create new event", "windows": "C", "mac": "C", "category": "Calendar", "difficulty": "beginner" },
+    { "action": "Open event details", "windows": "E", "mac": "E", "category": "Calendar", "difficulty": "beginner" },
+    { "action": "Delete event", "windows": "Backspace", "mac": "Delete", "category": "Calendar", "difficulty": "beginner" },
+    { "action": "Save event", "windows": "Ctrl+S", "mac": "Cmd+S", "category": "Calendar", "difficulty": "intermediate" },
+    { "action": "Undo", "windows": "Z", "mac": "Z", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Return to calendar grid / cancel", "windows": "Esc", "mac": "Esc", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Refresh calendar", "windows": "R", "mac": "R", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Open Search", "windows": "/", "mac": "/", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Open Settings", "windows": "S", "mac": "S", "category": "Calendar", "difficulty": "intermediate" },
+    { "action": "Show keyboard shortcuts", "windows": "Shift+?", "mac": "Shift+?", "category": "View", "difficulty": "beginner" }
+  ]
+}

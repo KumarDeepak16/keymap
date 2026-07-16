@@ -1,0 +1,33 @@
+{
+  "app": "cursor",
+  "officialDocsUrl": "https://cursor.com/docs/reference/keyboard-shortcuts",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Open inline edit (edit in place)", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "AI", "difficulty": "beginner" },
+    { "action": "Toggle AI chat sidepanel", "windows": "Ctrl+L", "mac": "Cmd+L", "category": "AI", "difficulty": "beginner" },
+    { "action": "Toggle chat (alternate)", "windows": "Ctrl+I", "mac": "Cmd+I", "category": "AI", "difficulty": "beginner" },
+    { "action": "Add selection to chat", "windows": "Ctrl+Shift+L", "mac": "Cmd+Shift+L", "category": "AI", "difficulty": "beginner" },
+    { "action": "New chat", "windows": "Ctrl+N", "mac": "Cmd+N", "category": "AI", "difficulty": "beginner" },
+    { "action": "Submit edit / chat prompt", "windows": "Enter", "mac": "Enter", "category": "AI", "difficulty": "beginner" },
+    { "action": "Accept AI suggestion (Tab completion)", "windows": "Tab", "mac": "Tab", "category": "AI", "difficulty": "beginner" },
+    { "action": "Accept next word of suggestion", "windows": "Ctrl+Right", "mac": "Cmd+Right", "category": "AI", "difficulty": "intermediate" },
+    { "action": "Accept all AI changes", "windows": "Ctrl+Enter", "mac": "Cmd+Enter", "category": "AI", "difficulty": "intermediate" },
+    { "action": "Reject all AI changes", "windows": "Ctrl+Backspace", "mac": "Cmd+Backspace", "category": "AI", "difficulty": "intermediate" },
+    { "action": "Cancel AI generation", "windows": "Ctrl+Shift+Backspace", "mac": "Cmd+Shift+Backspace", "category": "AI", "difficulty": "intermediate" },
+    { "action": "Open mode menu", "windows": "Ctrl+.", "mac": "Cmd+.", "category": "AI", "difficulty": "advanced" },
+    { "action": "Loop between models", "windows": "Ctrl+/", "mac": "Cmd+/", "category": "AI", "difficulty": "advanced" },
+    { "action": "Open Cursor settings", "windows": "Ctrl+Shift+J", "mac": "Cmd+Shift+J", "category": "General", "difficulty": "intermediate" },
+    { "action": "Show command palette", "windows": "Ctrl+Shift+P", "mac": "Cmd+Shift+P", "category": "General", "difficulty": "beginner" },
+    { "action": "Open general settings", "windows": "Ctrl+,", "mac": "Cmd+,", "category": "General", "difficulty": "beginner" },
+    { "action": "Quick open / go to file", "windows": "Ctrl+P", "mac": "Cmd+P", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Save file", "windows": "Ctrl+S", "mac": "Cmd+S", "category": "General", "difficulty": "beginner" },
+    { "action": "Find", "windows": "Ctrl+F", "mac": "Cmd+F", "category": "Search", "difficulty": "beginner" },
+    { "action": "Find in files", "windows": "Ctrl+Shift+F", "mac": "Cmd+Shift+F", "category": "Search", "difficulty": "intermediate" },
+    { "action": "Toggle line comment", "windows": "Ctrl+/", "mac": "Cmd+/", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Add selection to next find match (multi-cursor)", "windows": "Ctrl+D", "mac": "Cmd+D", "category": "Multi-cursor", "difficulty": "intermediate" },
+    { "action": "Go to definition", "windows": "F12", "mac": "F12", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Go to symbol in file", "windows": "Ctrl+Shift+O", "mac": "Cmd+Shift+O", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Toggle sidebar", "windows": "Ctrl+B", "mac": "Cmd+B", "category": "General", "difficulty": "beginner" },
+    { "action": "Toggle integrated terminal", "windows": "Ctrl+`", "mac": "Ctrl+`", "category": "Terminal", "difficulty": "beginner" }
+  ]
+}

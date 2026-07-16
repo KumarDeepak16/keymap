@@ -1,0 +1,29 @@
+{
+  "app": "linux",
+  "officialDocsUrl": "https://help.ubuntu.com/stable/ubuntu-help/shell-keyboard-shortcuts.html.en",
+  "lastVerified": "2026-07-16",
+  "note": "Ubuntu / GNOME Shell shortcuts. The 'Super' key (shown as Cmd here) is the Windows key. These apply to the desktop, not a single app.",
+  "shortcuts": [
+    { "action": "Open Activities overview / search", "windows": "Cmd", "mac": "", "category": "General", "difficulty": "beginner" },
+    { "action": "Show the list of applications", "windows": "Cmd+A", "mac": "", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Run a command quickly", "windows": "Alt+F2", "mac": "", "category": "General", "difficulty": "advanced" },
+    { "action": "Switch between open windows", "windows": "Cmd+Tab", "mac": "", "category": "Windows", "difficulty": "beginner" },
+    { "action": "Switch windows of the same app", "windows": "Cmd+`", "mac": "", "category": "Windows", "difficulty": "intermediate" },
+    { "action": "Switch between workspaces", "windows": "Cmd+Page Up", "mac": "", "category": "Workspace", "difficulty": "intermediate" },
+    { "action": "Move current window to another workspace", "windows": "Shift+Cmd+Page Up", "mac": "", "category": "Workspace", "difficulty": "advanced" },
+    { "action": "Move window one monitor left", "windows": "Shift+Cmd+Left", "mac": "", "category": "Windows", "difficulty": "advanced" },
+    { "action": "Lock the screen", "windows": "Cmd+L", "mac": "", "category": "General", "difficulty": "beginner" },
+    { "action": "Show the notification list", "windows": "Cmd+V", "mac": "", "category": "General", "difficulty": "intermediate" },
+    { "action": "Show the Power Off dialog", "windows": "Ctrl+Alt+Delete", "mac": "", "category": "General", "difficulty": "intermediate" },
+    { "action": "Open a terminal", "windows": "Ctrl+Alt+T", "mac": "", "category": "General", "difficulty": "beginner" },
+    { "action": "Select all", "windows": "Ctrl+A", "mac": "", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Cut", "windows": "Ctrl+X", "mac": "", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Copy", "windows": "Ctrl+C", "mac": "", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Paste", "windows": "Ctrl+V", "mac": "", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Undo", "windows": "Ctrl+Z", "mac": "", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Launch the screenshot tool", "windows": "Print", "mac": "", "category": "General", "difficulty": "beginner" },
+    { "action": "Screenshot a window", "windows": "Alt+Print", "mac": "", "category": "General", "difficulty": "intermediate" },
+    { "action": "Screenshot the entire screen", "windows": "Shift+Print", "mac": "", "category": "General", "difficulty": "intermediate" },
+    { "action": "Start / stop screencast recording", "windows": "Ctrl+Alt+Shift+R", "mac": "", "category": "General", "difficulty": "advanced" }
+  ]
+}

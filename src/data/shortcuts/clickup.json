@@ -1,0 +1,24 @@
+{
+  "app": "clickup",
+  "officialDocsUrl": "https://help.clickup.com/hc/en-us/articles/6309030550167-Use-keyboard-shortcuts",
+  "lastVerified": "2026-07-16",
+  "note": "Keyboard shortcuts are disabled by default and must be enabled in Settings > Preferences. Single-letter shortcuts work anywhere in the Workspace.",
+  "shortcuts": [
+    { "action": "Open Command Center / search", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "General", "difficulty": "beginner" },
+    { "action": "Show list of shortcuts", "windows": "Shift+?", "mac": "Shift+?", "category": "General", "difficulty": "beginner" },
+    { "action": "Create a task", "windows": "T", "mac": "T", "category": "Tasks", "difficulty": "beginner" },
+    { "action": "Assign task to yourself", "windows": "M", "mac": "M", "category": "Tasks", "difficulty": "intermediate" },
+    { "action": "Go to Home", "windows": "H", "mac": "H", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Open Notifications / Inbox", "windows": "N", "mac": "N", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Open Search", "windows": "S", "mac": "S", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go to Dashboards", "windows": "D", "mac": "D", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Show / hide left sidebar", "windows": "Q", "mac": "Q", "category": "View", "difficulty": "beginner" },
+    { "action": "Open Notepad", "windows": "P", "mac": "P", "category": "General", "difficulty": "intermediate" },
+    { "action": "Switch to List view", "windows": "L", "mac": "L", "category": "View", "difficulty": "intermediate" },
+    { "action": "Switch to Board view", "windows": "B", "mac": "B", "category": "View", "difficulty": "intermediate" },
+    { "action": "Switch to Calendar view", "windows": "C", "mac": "C", "category": "View", "difficulty": "intermediate" },
+    { "action": "Close task / panel", "windows": "Esc", "mac": "Esc", "category": "General", "difficulty": "beginner" },
+    { "action": "Tag / mention a user", "windows": "@", "mac": "@", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Open emoji picker", "windows": ":", "mac": ":", "category": "Editing", "difficulty": "advanced" }
+  ]
+}

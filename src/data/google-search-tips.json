@@ -1,0 +1,29 @@
+{
+  "officialDocsUrl": "https://support.google.com/websearch/answer/2466433",
+  "lastVerified": "2026-07-16",
+  "tips": [
+    { "operator": "\"...\"", "example": "\"tallest building\"", "description": "Search for an exact word or phrase.", "category": "Exact match", "official": true },
+    { "operator": "-", "example": "jaguar speed -car", "description": "Exclude a word. Put the minus directly before the term.", "category": "Exclude", "official": true },
+    { "operator": "site:", "example": "site:youtube.com cat videos", "description": "Search within one website or domain.", "category": "Scope", "official": true },
+    { "operator": "filetype:", "example": "photoelectric effect filetype:pdf", "description": "Find a specific file format such as PDF, DOC, or PPT.", "category": "File types", "official": true },
+    { "operator": "before:", "example": "astronomy before:2025/11/01", "description": "Find results from before a given date (YYYY/MM/DD or YYYY).", "category": "Ranges", "official": true },
+    { "operator": "after:", "example": "astronomy after:2026/03/10", "description": "Find results from after a given date.", "category": "Ranges", "official": true },
+    { "operator": "before: + after:", "example": "endgame after:2019-03-01 before:2019-03-05", "description": "Combine to restrict results to a date range.", "category": "Ranges", "official": true },
+    { "operator": "OR", "example": "marathon OR race", "description": "Match either term (must be uppercase). Use | as an alternative.", "category": "Operators", "official": false },
+    { "operator": "AND", "example": "cats AND dogs", "description": "Require both terms to appear in results.", "category": "Operators", "official": false },
+    { "operator": "*", "example": "\"largest * in the world\"", "description": "Wildcard placeholder for one or more unknown words in a phrase.", "category": "Operators", "official": false },
+    { "operator": "..", "example": "camera $50..$100", "description": "Search within a range of numbers, prices, or years.", "category": "Ranges", "official": false },
+    { "operator": "$", "example": "nikon camera $400", "description": "Search for a specific price. Use £ or € for other currencies.", "category": "Special", "official": false },
+    { "operator": "intitle:", "example": "intitle:climate report", "description": "Find pages with the term in the page title.", "category": "Operators", "official": false },
+    { "operator": "allintitle:", "example": "allintitle:solar panel installation", "description": "Find pages with all listed terms in the title.", "category": "Operators", "official": false },
+    { "operator": "inurl:", "example": "inurl:signup free trial", "description": "Find pages with the term in the URL.", "category": "Operators", "official": false },
+    { "operator": "allinurl:", "example": "allinurl:blog seo tips", "description": "Find pages with all listed terms in the URL.", "category": "Operators", "official": false },
+    { "operator": "intext:", "example": "intext:\"renewable energy\"", "description": "Find pages containing the term in the body text.", "category": "Operators", "official": false },
+    { "operator": "related:", "example": "related:nytimes.com", "description": "Find sites similar to a given domain.", "category": "Scope", "official": false },
+    { "operator": "define:", "example": "define:serendipity", "description": "Show the definition of a word or phrase.", "category": "Special", "official": false },
+    { "operator": "weather:", "example": "weather:london", "description": "Show the weather for a location.", "category": "Special", "official": false },
+    { "operator": "AROUND(n)", "example": "climate AROUND(3) policy", "description": "Find two terms within n words of each other. Uppercase AROUND.", "category": "Operators", "official": false },
+    { "operator": "map:", "example": "map:silicon valley", "description": "Show map results for a location.", "category": "Special", "official": false },
+    { "operator": "source:", "example": "tesla source:reuters", "description": "Find news results from a specific source in Google News.", "category": "Scope", "official": false }
+  ]
+}

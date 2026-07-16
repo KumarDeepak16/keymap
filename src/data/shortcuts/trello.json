@@ -1,0 +1,20 @@
+{
+  "app": "trello",
+  "officialDocsUrl": "https://support.atlassian.com/trello/docs/keyboard-shortcuts-in-trello/",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "View list of keyboard shortcuts", "windows": "Shift+?", "mac": "Shift+?", "category": "General", "difficulty": "beginner" },
+    { "action": "Search for boards instantly", "windows": "B", "mac": "B", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Open the card filter menu", "windows": "F", "mac": "F", "category": "Boards", "difficulty": "intermediate" },
+    { "action": "Clear active card filters", "windows": "X", "mac": "X", "category": "Boards", "difficulty": "intermediate" },
+    { "action": "Edit the selected card title", "windows": "T", "mac": "T", "category": "Boards", "difficulty": "beginner" },
+    { "action": "Select card above", "windows": "K", "mac": "K", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Select card below", "windows": "J", "mac": "J", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Open card composer below selected card", "windows": "N", "mac": "N", "category": "Boards", "difficulty": "intermediate" },
+    { "action": "Archive the hovered card", "windows": "C", "mac": "C", "category": "Boards", "difficulty": "intermediate" },
+    { "action": "Repeat your last action", "windows": "R", "mac": "R", "category": "Boards", "difficulty": "advanced" },
+    { "action": "Undo your last action", "windows": "Z", "mac": "Z", "category": "Boards", "difficulty": "intermediate" },
+    { "action": "Redo an undone action", "windows": "Shift+Z", "mac": "Shift+Z", "category": "Boards", "difficulty": "advanced" },
+    { "action": "Toggle global quick-add (desktop app)", "windows": "Ctrl+Alt+Space", "mac": "Ctrl+Option+Space", "category": "General", "difficulty": "advanced" }
+  ]
+}

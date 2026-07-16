@@ -1,0 +1,25 @@
+{
+  "app": "finder",
+  "officialDocsUrl": "https://support.apple.com/en-us/102650",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Create a new folder", "windows": "", "mac": "Cmd+Shift+N", "category": "Files", "difficulty": "beginner" },
+    { "action": "Open Go to Folder window", "windows": "", "mac": "Cmd+Shift+G", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Show Get Info window", "windows": "", "mac": "Cmd+I", "category": "Files", "difficulty": "beginner" },
+    { "action": "Quick Look selected item", "windows": "", "mac": "Space", "category": "Files", "difficulty": "beginner" },
+    { "action": "Duplicate selected files", "windows": "", "mac": "Cmd+D", "category": "Files", "difficulty": "beginner" },
+    { "action": "Rename selected item", "windows": "", "mac": "Enter", "category": "Files", "difficulty": "beginner" },
+    { "action": "Open selected item", "windows": "", "mac": "Cmd+O", "category": "Files", "difficulty": "beginner" },
+    { "action": "Eject selected disk / volume", "windows": "", "mac": "Cmd+E", "category": "Files", "difficulty": "intermediate" },
+    { "action": "Start a Spotlight search", "windows": "", "mac": "Cmd+F", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Move selected files to Trash", "windows": "", "mac": "Cmd+Delete", "category": "Files", "difficulty": "beginner" },
+    { "action": "Empty the Trash", "windows": "", "mac": "Cmd+Shift+Delete", "category": "Files", "difficulty": "intermediate" },
+    { "action": "Show / hide hidden files", "windows": "", "mac": "Cmd+Shift+.", "category": "View", "difficulty": "advanced" },
+    { "action": "Show View Options", "windows": "", "mac": "Cmd+J", "category": "View", "difficulty": "intermediate" },
+    { "action": "Go back", "windows": "", "mac": "Cmd+[", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go forward", "windows": "", "mac": "Cmd+]", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Copy selected item", "windows": "", "mac": "Cmd+C", "category": "Files", "difficulty": "beginner" },
+    { "action": "Paste item", "windows": "", "mac": "Cmd+V", "category": "Files", "difficulty": "beginner" },
+    { "action": "Show enclosing folder", "windows": "", "mac": "Cmd+Up", "category": "Navigation", "difficulty": "intermediate" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "app": "lightroom",
+  "officialDocsUrl": "https://helpx.adobe.com/lightroom-classic/help/keyboard-shortcuts.html",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Library module", "windows": "G", "mac": "G", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Develop module", "windows": "D", "mac": "D", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Loupe view", "windows": "E", "mac": "E", "category": "Library", "difficulty": "beginner" },
+    { "action": "Compare view", "windows": "C", "mac": "C", "category": "Library", "difficulty": "intermediate" },
+    { "action": "Survey view", "windows": "N", "mac": "N", "category": "Library", "difficulty": "intermediate" },
+    { "action": "Set rating (0-5 stars)", "windows": "1 2 3 4 5", "mac": "1 2 3 4 5", "category": "Library", "difficulty": "beginner" },
+    { "action": "Remove rating", "windows": "0", "mac": "0", "category": "Library", "difficulty": "beginner" },
+    { "action": "Set flag as Pick", "windows": "P", "mac": "P", "category": "Library", "difficulty": "beginner" },
+    { "action": "Set flag as Reject", "windows": "X", "mac": "X", "category": "Library", "difficulty": "beginner" },
+    { "action": "Unflag", "windows": "U", "mac": "U", "category": "Library", "difficulty": "beginner" },
+    { "action": "Crop tool", "windows": "R", "mac": "R", "category": "Develop", "difficulty": "beginner" },
+    { "action": "Spot Removal tool", "windows": "Q", "mac": "Q", "category": "Develop", "difficulty": "intermediate" },
+    { "action": "Masking / Adjustment Brush", "windows": "K", "mac": "K", "category": "Develop", "difficulty": "intermediate" },
+    { "action": "White Balance selector", "windows": "W", "mac": "W", "category": "Develop", "difficulty": "intermediate" },
+    { "action": "Before / After view", "windows": "Y", "mac": "Y", "category": "Develop", "difficulty": "intermediate" },
+    { "action": "Copy Develop settings", "windows": "Ctrl+Shift+C", "mac": "Cmd+Shift+C", "category": "Develop", "difficulty": "advanced" },
+    { "action": "Paste Develop settings", "windows": "Ctrl+Shift+V", "mac": "Cmd+Shift+V", "category": "Develop", "difficulty": "advanced" },
+    { "action": "Full-screen preview", "windows": "F", "mac": "F", "category": "View", "difficulty": "beginner" },
+    { "action": "Cycle Lights Out mode", "windows": "L", "mac": "L", "category": "View", "difficulty": "intermediate" },
+    { "action": "Import photos", "windows": "Ctrl+Shift+I", "mac": "Cmd+Shift+I", "category": "Library", "difficulty": "beginner" },
+    { "action": "Export photos", "windows": "Ctrl+Shift+E", "mac": "Cmd+Shift+E", "category": "Library", "difficulty": "beginner" },
+    { "action": "Rotate right", "windows": "Ctrl+]", "mac": "Cmd+]", "category": "Develop", "difficulty": "beginner" },
+    { "action": "Rotate left", "windows": "Ctrl+[", "mac": "Cmd+[", "category": "Develop", "difficulty": "beginner" }
+  ]
+}

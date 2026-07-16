@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: New app request
+    url: https://github.com/KumarDeepak16/keymap/issues/new
+    about: Want an app added? Open a blank issue with the app name and its official docs link.

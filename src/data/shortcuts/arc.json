@@ -1,0 +1,29 @@
+{
+  "app": "arc",
+  "officialDocsUrl": "https://resources.arc.net/hc/en-us/articles/20595231349911-Keyboard-Shortcuts",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Open Command Bar / New tab", "windows": "Ctrl+T", "mac": "Cmd+T", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Close current tab or window", "windows": "Ctrl+W", "mac": "Cmd+W", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Re-open last closed tab", "windows": "Ctrl+Shift+T", "mac": "Cmd+Shift+T", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Pin or unpin current tab", "windows": "Ctrl+D", "mac": "Cmd+D", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Copy current tab URL", "windows": "Ctrl+Shift+C", "mac": "Cmd+Shift+C", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Clear unpinned tabs", "windows": "Ctrl+Shift+K", "mac": "Cmd+Shift+K", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Go directly to tab N (1, 2, 3 ...)", "windows": "Ctrl+1 ... Ctrl+9", "mac": "Cmd+1 ... Cmd+9", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Toggle between recent tabs", "windows": "Ctrl+Tab", "mac": "Ctrl+Tab", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "New window", "windows": "Ctrl+N", "mac": "Cmd+N", "category": "Windows", "difficulty": "beginner" },
+    { "action": "New incognito window", "windows": "Ctrl+Shift+N", "mac": "Cmd+Shift+N", "category": "Windows", "difficulty": "beginner" },
+    { "action": "Open Little Arc", "windows": "", "mac": "Cmd+Option+N", "category": "Windows", "difficulty": "advanced" },
+    { "action": "Focus on Space N (1, 2, 3 ...)", "windows": "Alt+1 ... Alt+9", "mac": "Ctrl+1 ... Ctrl+9", "category": "Spaces", "difficulty": "intermediate" },
+    { "action": "Show or hide the Sidebar", "windows": "Ctrl+S", "mac": "Cmd+S", "category": "Spaces", "difficulty": "beginner" },
+    { "action": "Go back on tab history", "windows": "Alt+Left", "mac": "Cmd+Left", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Go forward on tab history", "windows": "Alt+Right", "mac": "Cmd+Right", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Reload webpage", "windows": "Ctrl+R", "mac": "Cmd+R", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Zoom in webpage", "windows": "Ctrl++", "mac": "Cmd++", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Zoom out webpage", "windows": "Ctrl+-", "mac": "Cmd+-", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Reset webpage zoom", "windows": "Ctrl+0", "mac": "Cmd+0", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Change current tab URL", "windows": "Ctrl+L", "mac": "Cmd+L", "category": "Address bar", "difficulty": "beginner" },
+    { "action": "View History", "windows": "Ctrl+H", "mac": "Cmd+Y", "category": "General", "difficulty": "beginner" },
+    { "action": "Find in webpage", "windows": "Ctrl+F", "mac": "Cmd+F", "category": "General", "difficulty": "beginner" }
+  ]
+}

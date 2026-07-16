@@ -1,0 +1,15 @@
+{
+  "app": "google-meet",
+  "officialDocsUrl": "https://support.google.com/meet/answer/9298571",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Mute or unmute microphone", "windows": "Ctrl+D", "mac": "Cmd+D", "category": "Audio", "difficulty": "beginner" },
+    { "action": "Turn camera on or off", "windows": "Ctrl+E", "mac": "Cmd+E", "category": "Video", "difficulty": "beginner" },
+    { "action": "Raise or lower hand", "windows": "Ctrl+Alt+H", "mac": "Ctrl+Cmd+H", "category": "Meetings", "difficulty": "beginner" },
+    { "action": "Show or hide participants panel", "windows": "Ctrl+Alt+P", "mac": "Ctrl+Cmd+P", "category": "Meetings", "difficulty": "beginner" },
+    { "action": "Show or hide chat panel", "windows": "Ctrl+Alt+C", "mac": "Ctrl+Cmd+C", "category": "Meetings", "difficulty": "beginner" },
+    { "action": "Announce current speaker", "windows": "Ctrl+Alt+S", "mac": "Ctrl+Cmd+S", "category": "Meetings", "difficulty": "advanced" },
+    { "action": "Announce room and meeting info", "windows": "Ctrl+Alt+I", "mac": "Ctrl+Cmd+I", "category": "Meetings", "difficulty": "advanced" },
+    { "action": "Open the keyboard shortcut list", "windows": "Shift+?", "mac": "Shift+?", "category": "View", "difficulty": "beginner" }
+  ]
+}

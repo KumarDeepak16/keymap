@@ -1,0 +1,20 @@
+{
+  "app": "chatgpt",
+  "officialDocsUrl": "https://help.openai.com/",
+  "lastVerified": "2026-07-16",
+  "note": "ChatGPT does not publish a dedicated shortcuts page; the authoritative list is the in-app panel (Ctrl/Cmd + /).",
+  "shortcuts": [
+    { "action": "Show keyboard shortcuts", "windows": "Ctrl+/", "mac": "Cmd+/", "category": "General", "difficulty": "beginner" },
+    { "action": "Open new chat", "windows": "Ctrl+Shift+O", "mac": "Cmd+Shift+O", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Focus chat input", "windows": "Shift+Esc", "mac": "Shift+Esc", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Send message", "windows": "Enter", "mac": "Enter", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Add new line without sending", "windows": "Shift+Enter", "mac": "Shift+Enter", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Stop generating response", "windows": "Esc", "mac": "Esc", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Toggle sidebar", "windows": "Ctrl+Shift+S", "mac": "Cmd+Shift+S", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Copy last code block", "windows": "Ctrl+Shift+;", "mac": "Cmd+Shift+;", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Copy last response", "windows": "Ctrl+Shift+C", "mac": "Cmd+Shift+C", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Set custom instructions", "windows": "Ctrl+Shift+I", "mac": "Cmd+Shift+I", "category": "General", "difficulty": "intermediate" },
+    { "action": "Delete current chat", "windows": "Ctrl+Shift+Backspace", "mac": "Cmd+Shift+Backspace", "category": "Chat", "difficulty": "advanced" },
+    { "action": "Toggle companion window (desktop app)", "windows": "Alt+Space", "mac": "Option+Space", "category": "General", "difficulty": "advanced" }
+  ]
+}

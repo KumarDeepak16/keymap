@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a problem with the site or UI.
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: Browser, OS, and screen size (desktop/mobile).
+      placeholder: Chrome 130, Windows 11, mobile

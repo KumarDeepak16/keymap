@@ -1,0 +1,14 @@
+{
+  "app": "github-copilot",
+  "officialDocsUrl": "https://docs.github.com/copilot/reference/keyboard-shortcuts-for-github-copilot-in-the-ide",
+  "lastVerified": "2026-07-16",
+  "note": "Combos are for VS Code. JetBrains matches except 'Open Copilot pane' which is Alt+Enter (Option+Return on macOS). Toggle Copilot on/off has no default binding.",
+  "shortcuts": [
+    { "action": "Accept inline suggestion", "windows": "Tab", "mac": "Tab", "category": "AI", "difficulty": "beginner" },
+    { "action": "Dismiss inline suggestion", "windows": "Esc", "mac": "Esc", "category": "AI", "difficulty": "beginner" },
+    { "action": "Show next inline suggestion", "windows": "Alt+]", "mac": "Option+]", "category": "AI", "difficulty": "beginner" },
+    { "action": "Show previous inline suggestion", "windows": "Alt+[", "mac": "Option+[", "category": "AI", "difficulty": "beginner" },
+    { "action": "Trigger inline suggestion", "windows": "Alt+\\", "mac": "Option+\\", "category": "AI", "difficulty": "intermediate" },
+    { "action": "Open Copilot (additional suggestions pane)", "windows": "Ctrl+Enter", "mac": "Ctrl+Enter", "category": "AI", "difficulty": "intermediate" }
+  ]
+}

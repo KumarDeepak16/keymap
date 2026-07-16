@@ -1,0 +1,20 @@
+{
+  "app": "claude",
+  "officialDocsUrl": "https://support.anthropic.com/",
+  "lastVerified": "2026-07-16",
+  "note": "Anthropic does not publish a dedicated claude.ai shortcuts page; the authoritative list is the in-app panel (Ctrl/Cmd + /).",
+  "shortcuts": [
+    { "action": "Show keyboard shortcuts", "windows": "Ctrl+/", "mac": "Cmd+/", "category": "General", "difficulty": "beginner" },
+    { "action": "Start new chat", "windows": "Ctrl+Shift+O", "mac": "Cmd+Shift+O", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Send message", "windows": "Enter", "mac": "Enter", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Add new line without sending", "windows": "Shift+Enter", "mac": "Shift+Enter", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Open slash command menu", "windows": "/", "mac": "/", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Stop generating response", "windows": "Esc", "mac": "Esc", "category": "Chat", "difficulty": "beginner" },
+    { "action": "Toggle sidebar", "windows": "Ctrl+Shift+S", "mac": "Cmd+Shift+S", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Open search / command menu", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Open settings", "windows": "Ctrl+,", "mac": "Cmd+,", "category": "General", "difficulty": "intermediate" },
+    { "action": "Copy last response", "windows": "Ctrl+Shift+C", "mac": "Cmd+Shift+C", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Delete current conversation", "windows": "Ctrl+Shift+Backspace", "mac": "Cmd+Shift+Backspace", "category": "Chat", "difficulty": "advanced" },
+    { "action": "New window (desktop app)", "windows": "Ctrl+N", "mac": "Cmd+N", "category": "General", "difficulty": "advanced" }
+  ]
+}

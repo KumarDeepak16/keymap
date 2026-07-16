@@ -1,0 +1,25 @@
+{
+  "app": "obsidian",
+  "officialDocsUrl": "https://help.obsidian.md/hotkeys",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Open command palette", "windows": "Ctrl+P", "mac": "Cmd+P", "category": "General", "difficulty": "beginner" },
+    { "action": "Open quick switcher (jump to file)", "windows": "Ctrl+O", "mac": "Cmd+O", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Create new note", "windows": "Ctrl+N", "mac": "Cmd+N", "category": "Notes", "difficulty": "beginner" },
+    { "action": "Search current file", "windows": "Ctrl+F", "mac": "Cmd+F", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Search across all files", "windows": "Ctrl+Shift+F", "mac": "Cmd+Shift+F", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Toggle edit / preview mode", "windows": "Ctrl+E", "mac": "Cmd+E", "category": "View", "difficulty": "beginner" },
+    { "action": "Open graph view", "windows": "Ctrl+G", "mac": "Cmd+G", "category": "View", "difficulty": "intermediate" },
+    { "action": "Open settings", "windows": "Ctrl+,", "mac": "Cmd+,", "category": "General", "difficulty": "beginner" },
+    { "action": "Save file", "windows": "Ctrl+S", "mac": "Cmd+S", "category": "Notes", "difficulty": "beginner" },
+    { "action": "Bold text", "windows": "Ctrl+B", "mac": "Cmd+B", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Italic text", "windows": "Ctrl+I", "mac": "Cmd+I", "category": "Editing", "difficulty": "beginner" },
+    { "action": "Insert internal link", "windows": "Ctrl+K", "mac": "Cmd+K", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Indent list / text", "windows": "Ctrl+]", "mac": "Cmd+]", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Unindent list / text", "windows": "Ctrl+[", "mac": "Cmd+[", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Navigate back", "windows": "Ctrl+Alt+Left", "mac": "Cmd+Alt+Left", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Navigate forward", "windows": "Ctrl+Alt+Right", "mac": "Cmd+Alt+Right", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Delete current paragraph / line", "windows": "Ctrl+D", "mac": "Cmd+D", "category": "Editing", "difficulty": "advanced" },
+    { "action": "Open another vault", "windows": "Ctrl+Shift+O", "mac": "Cmd+Shift+O", "category": "Workspace", "difficulty": "advanced" }
+  ]
+}

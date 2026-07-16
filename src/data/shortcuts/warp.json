@@ -1,0 +1,31 @@
+{
+  "app": "warp",
+  "officialDocsUrl": "https://docs.warp.dev/getting-started/keyboard-shortcuts/",
+  "lastVerified": "2026-07-16",
+  "shortcuts": [
+    { "action": "Split pane right", "windows": "Ctrl+Shift+D", "mac": "Cmd+D", "category": "Panes", "difficulty": "beginner" },
+    { "action": "Split pane down", "windows": "Ctrl+Shift+E", "mac": "Shift+Cmd+D", "category": "Panes", "difficulty": "beginner" },
+    { "action": "Switch pane up", "windows": "Ctrl+Alt+Up", "mac": "Option+Cmd+Up", "category": "Panes", "difficulty": "intermediate" },
+    { "action": "Switch pane down", "windows": "Ctrl+Alt+Down", "mac": "Option+Cmd+Down", "category": "Panes", "difficulty": "intermediate" },
+    { "action": "Switch pane left", "windows": "Ctrl+Alt+Left", "mac": "Option+Cmd+Left", "category": "Panes", "difficulty": "intermediate" },
+    { "action": "Switch pane right", "windows": "Ctrl+Alt+Right", "mac": "Option+Cmd+Right", "category": "Panes", "difficulty": "intermediate" },
+    { "action": "Maximize pane", "windows": "Ctrl+Shift+Enter", "mac": "Shift+Cmd+Enter", "category": "Panes", "difficulty": "advanced" },
+    { "action": "Open new tab", "windows": "Ctrl+Shift+T", "mac": "Cmd+T", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Reopen closed tab", "windows": "Ctrl+Alt+T", "mac": "Shift+Cmd+T", "category": "Tabs", "difficulty": "intermediate" },
+    { "action": "Switch to tab by number", "windows": "Ctrl+1", "mac": "Cmd+1", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Next tab", "windows": "Ctrl+PageDown", "mac": "Shift+Cmd+}", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Previous tab", "windows": "Ctrl+PageUp", "mac": "Shift+Cmd+{", "category": "Tabs", "difficulty": "beginner" },
+    { "action": "Select next block", "windows": "Ctrl+Down", "mac": "Cmd+Down", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Select previous block", "windows": "Ctrl+Up", "mac": "Cmd+Up", "category": "Navigation", "difficulty": "intermediate" },
+    { "action": "Select all blocks", "windows": "Ctrl+Shift+A", "mac": "Cmd+A", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Clear blocks", "windows": "Ctrl+Shift+K", "mac": "Cmd+K", "category": "General", "difficulty": "beginner" },
+    { "action": "Copy command", "windows": "Ctrl+Shift+C", "mac": "Shift+Cmd+C", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Bookmark block", "windows": "Ctrl+Shift+B", "mac": "Cmd+B", "category": "General", "difficulty": "advanced" },
+    { "action": "Focus command input", "windows": "Ctrl+Shift+L", "mac": "Cmd+L", "category": "Editing", "difficulty": "intermediate" },
+    { "action": "Open command palette", "windows": "Ctrl+Shift+P", "mac": "Cmd+P", "category": "General", "difficulty": "beginner" },
+    { "action": "Command search (history)", "windows": "Ctrl+R", "mac": "Ctrl+R", "category": "Navigation", "difficulty": "beginner" },
+    { "action": "Open workflows", "windows": "Ctrl+Shift+R", "mac": "Ctrl+Shift+R", "category": "General", "difficulty": "advanced" },
+    { "action": "Find", "windows": "Ctrl+Shift+F", "mac": "Cmd+F", "category": "Selection", "difficulty": "beginner" },
+    { "action": "Open settings", "windows": "Ctrl+,", "mac": "Cmd+,", "category": "General", "difficulty": "beginner" }
+  ]
+}
